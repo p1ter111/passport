@@ -9559,109 +9559,6 @@ body,
   object-fit: cover;
 }
 
-/* Historical scans are not available for every country. Reusing the verified
-   national cover as a textured base keeps every archive card country-specific
-   while the year treatment makes the reconstruction visibly distinct. */
-.passport-history-cover.is-reconstruction {
-  isolation: isolate;
-}
-
-.passport-history-cover.is-reconstruction::before {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  content: "";
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(15, 19, 22, 0.35));
-  mix-blend-mode: multiply;
-  pointer-events: none;
-}
-
-.passport-history-cover.is-reconstruction img {
-  transform: scale(1.08);
-  filter: saturate(0.64) contrast(0.88) brightness(0.9);
-}
-
-.passport-history-cover.is-reconstruction.era-1982 img {
-  filter: grayscale(0.62) sepia(0.2) contrast(0.86) brightness(0.86);
-}
-
-.passport-history-cover.is-reconstruction.era-2006 img {
-  filter: saturate(0.48) contrast(0.92) brightness(0.88);
-}
-
-.passport-history-cover.is-reconstruction.era-2016 img {
-  filter: saturate(0.74) contrast(0.96) brightness(0.94);
-}
-
-.passport-history-cover-overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 12px 10px 10px;
-  color: rgba(255, 255, 255, 0.95);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.38);
-  pointer-events: none;
-}
-
-.passport-history-cover-overlay > span {
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-}
-
-.passport-history-cover-overlay small {
-  align-self: flex-end;
-  padding: 3px 4px;
-  border: 1px solid rgba(255, 255, 255, 0.48);
-  border-radius: 3px;
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 6px;
-  font-weight: 800;
-  letter-spacing: 0.09em;
-}
-
-.passport-history-cover-year,
-.passport-history-cover-country,
-.passport-history-cover-mark {
-  position: relative;
-  z-index: 1;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.passport-history-cover-year {
-  align-self: flex-start;
-  color: rgba(255, 255, 255, 0.66);
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-}
-
-.passport-history-cover-country {
-  margin-top: 30px;
-  font-size: 10px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.passport-history-cover > svg {
-  position: relative;
-  z-index: 1;
-  opacity: 0.72;
-}
-
-.passport-history-cover-mark {
-  color: rgba(255, 255, 255, 0.65);
-  font-size: 7px;
-  font-weight: 750;
-  letter-spacing: 0.12em;
-}
 
 .passport-history-copy {
   min-width: 0;
@@ -9812,5 +9709,536 @@ body,
     align-items: flex-start;
     flex-direction: column;
     margin-top: 8px;
+  }
+}
+
+/* Distinct archive editions. Historical covers are composed from scratch so
+   the current reference image is never recolored and presented as an old scan. */
+.passport-history {
+  background: #fbfbfa;
+}
+
+.passport-history-heading {
+  margin-bottom: 38px;
+}
+
+.passport-history-timeline {
+  gap: clamp(18px, 2vw, 30px);
+}
+
+.passport-history-item {
+  align-content: start;
+  grid-template-rows: 25px auto 1fr;
+  gap: 16px;
+}
+
+.passport-history-cover {
+  width: min(176px, 78%);
+  margin: 0;
+  padding: 0;
+  border-radius: 5px 9px 9px 5px;
+  isolation: isolate;
+  box-shadow: 0 18px 34px rgba(29, 29, 26, 0.14), inset 2px 0 0 rgba(255, 255, 255, 0.14);
+}
+
+.passport-history-cover:not(.has-image)::after {
+  inset: 10px;
+  z-index: 2;
+  border-color: rgba(238, 220, 169, 0.34);
+  border-radius: 2px 6px 6px 2px;
+}
+
+.passport-history-cover.is-reconstruction {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  color: rgba(255, 247, 219, 0.9);
+  background: color-mix(in srgb, var(--archive-color, #424743) 82%, #252622);
+}
+
+.passport-history-cover.is-reconstruction::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: 4;
+  width: 4px;
+  content: "";
+  background: rgba(10, 10, 9, 0.2);
+  box-shadow: 2px 0 5px rgba(255, 255, 255, 0.08);
+}
+
+.archive-cover-texture {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.38;
+  pointer-events: none;
+}
+
+.archive-pattern-guilloche .archive-cover-texture {
+  background:
+    repeating-radial-gradient(ellipse at 50% 54%, transparent 0 8px, rgba(239, 221, 170, 0.16) 9px 10px, transparent 11px 17px),
+    repeating-linear-gradient(35deg, transparent 0 12px, rgba(255, 255, 255, 0.04) 13px 14px);
+}
+
+.archive-pattern-rays .archive-cover-texture {
+  background:
+    repeating-conic-gradient(from 15deg at 50% 48%, rgba(241, 222, 167, 0.13) 0deg 3deg, transparent 3deg 12deg),
+    radial-gradient(circle at 50% 48%, transparent 0 35%, rgba(255, 255, 255, 0.06) 36% 37%, transparent 38%);
+}
+
+.archive-pattern-contour .archive-cover-texture {
+  background:
+    repeating-radial-gradient(ellipse at 90% 85%, transparent 0 11px, rgba(232, 218, 171, 0.14) 12px 13px, transparent 14px 22px),
+    linear-gradient(115deg, transparent 0 48%, rgba(255, 255, 255, 0.06) 49% 51%, transparent 52%);
+}
+
+.archive-cover-period,
+.archive-cover-heading,
+.archive-cover-emblem,
+.archive-cover-title,
+.archive-cover-chip,
+.archive-cover-status {
+  position: absolute;
+  z-index: 3;
+}
+
+.archive-cover-period {
+  top: 13px;
+  right: 13px;
+  color: rgba(255, 245, 215, 0.62);
+  font-size: 7px;
+  font-weight: 760;
+  letter-spacing: 0;
+}
+
+.archive-cover-heading {
+  right: 17px;
+  left: 17px;
+  display: grid;
+  gap: 3px;
+  text-align: center;
+}
+
+.archive-cover-country {
+  max-width: 100%;
+  margin: 0;
+  overflow: hidden;
+  color: rgba(255, 246, 215, 0.9);
+  font-size: clamp(7px, 0.68vw, 10px);
+  font-weight: 760;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.archive-cover-authority {
+  color: rgba(255, 245, 215, 0.5);
+  font-size: 5px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.archive-cover-emblem {
+  display: grid;
+  place-items: center;
+  color: rgba(246, 224, 164, 0.76);
+}
+
+.archive-cover-emblem.emblem-seal {
+  width: 56px;
+  height: 56px;
+  border: 1px double rgba(244, 223, 166, 0.48);
+  border-radius: 50%;
+}
+
+.archive-cover-emblem.emblem-crest span {
+  display: grid;
+  width: 48px;
+  height: 58px;
+  place-items: center;
+  border: 1px solid rgba(244, 223, 166, 0.55);
+  border-radius: 45% 45% 48% 48% / 36% 36% 60% 60%;
+  font-size: 25px;
+  filter: grayscale(0.28) sepia(0.16);
+}
+
+.archive-cover-emblem.emblem-symbol {
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(244, 223, 166, 0.4);
+  transform: rotate(45deg);
+}
+
+.archive-cover-emblem.emblem-symbol svg {
+  transform: rotate(-45deg);
+}
+
+.archive-cover-title {
+  display: grid;
+  gap: 2px;
+  color: rgba(255, 245, 213, 0.86);
+}
+
+.archive-cover-title strong {
+  font-size: 10px;
+  font-weight: 780;
+  letter-spacing: 0;
+}
+
+.archive-cover-title span {
+  color: rgba(255, 245, 213, 0.5);
+  font-size: 5px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.archive-cover-chip {
+  width: 21px;
+  height: 15px;
+  border: 1px solid rgba(246, 225, 167, 0.72);
+  border-radius: 2px;
+}
+
+.archive-cover-chip::before,
+.archive-cover-chip::after,
+.archive-cover-chip i {
+  position: absolute;
+  content: "";
+}
+
+.archive-cover-chip::before {
+  top: 6px;
+  left: -1px;
+  width: 21px;
+  border-top: 1px solid rgba(246, 225, 167, 0.72);
+}
+
+.archive-cover-chip::after {
+  top: -1px;
+  bottom: -1px;
+  left: 6px;
+  width: 7px;
+  border-right: 1px solid rgba(246, 225, 167, 0.72);
+  border-left: 1px solid rgba(246, 225, 167, 0.72);
+}
+
+.archive-cover-chip i {
+  top: 3px;
+  left: 8px;
+  width: 4px;
+  height: 8px;
+  border: 1px solid rgba(246, 225, 167, 0.72);
+  border-radius: 50%;
+}
+
+.archive-cover-status {
+  right: 8px;
+  bottom: 8px;
+  display: inline-flex;
+  max-width: calc(100% - 16px);
+  align-items: center;
+  gap: 4px;
+  overflow: hidden;
+  padding: 4px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.76);
+  background: rgba(15, 15, 14, 0.28);
+  font-size: 6px;
+  font-weight: 720;
+  line-height: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  backdrop-filter: blur(5px);
+}
+
+.archive-cover-status.is-verified {
+  color: #ffffff;
+  background: rgba(19, 19, 18, 0.62);
+}
+
+.archive-cover-classic {
+  background: color-mix(in srgb, var(--archive-color, #424743) 72%, #312f27) !important;
+}
+
+.archive-cover-classic .archive-cover-heading {
+  top: 34px;
+}
+
+.archive-cover-classic .archive-cover-emblem {
+  top: 76px;
+  left: calc(50% - 28px);
+}
+
+.archive-cover-classic .archive-cover-title {
+  right: 20px;
+  bottom: 38px;
+  left: 20px;
+  text-align: center;
+}
+
+.archive-cover-chip-centered {
+  background: color-mix(in srgb, var(--archive-color, #424743) 80%, #172621) !important;
+}
+
+.archive-cover-chip-centered .archive-cover-heading {
+  top: 27px;
+}
+
+.archive-cover-chip-centered .archive-cover-emblem {
+  top: 71px;
+  left: calc(50% - 24px);
+}
+
+.archive-cover-chip-centered .archive-cover-title {
+  right: 18px;
+  bottom: 50px;
+  left: 18px;
+  text-align: center;
+}
+
+.archive-cover-chip-centered .archive-cover-chip {
+  bottom: 22px;
+  left: calc(50% - 10px);
+}
+
+.archive-cover-chip-centered .archive-cover-status {
+  top: 8px;
+  right: auto;
+  bottom: auto;
+  left: 8px;
+}
+
+.archive-cover-modern-offset {
+  background: color-mix(in srgb, var(--archive-color, #424743) 88%, #33363a) !important;
+}
+
+.archive-cover-modern-offset::after {
+  inset: 9px 9px 9px 44%;
+  border-left: 0;
+}
+
+.archive-cover-modern-offset .archive-cover-period {
+  top: 16px;
+  right: 12px;
+  writing-mode: vertical-rl;
+}
+
+.archive-cover-modern-offset .archive-cover-heading {
+  top: 22px;
+  right: 36px;
+  left: 16px;
+  text-align: left;
+}
+
+.archive-cover-modern-offset .archive-cover-emblem {
+  right: 22px;
+  bottom: 45px;
+}
+
+.archive-cover-modern-offset .archive-cover-title {
+  top: 92px;
+  left: 16px;
+  text-align: left;
+}
+
+.archive-cover-modern-offset .archive-cover-title strong {
+  font-size: 12px;
+}
+
+.archive-cover-modern-offset .archive-cover-chip {
+  bottom: 18px;
+  left: 16px;
+}
+
+.archive-cover-modern-offset .archive-cover-status {
+  top: auto;
+  right: 8px;
+  bottom: 8px;
+}
+
+.archive-variant-1 .archive-cover-texture {
+  transform: rotate(6deg) scale(1.08);
+}
+
+.archive-variant-2 .archive-cover-texture {
+  transform: rotate(-7deg) scale(1.12);
+}
+
+.archive-variant-3 .archive-cover-emblem {
+  color: rgba(235, 213, 157, 0.9);
+}
+
+.passport-history-copy {
+  padding-right: 0;
+}
+
+.passport-history-copy h3 {
+  margin: 9px 0 6px;
+  font-size: 14px;
+}
+
+.passport-history-copy > p {
+  min-height: 50px;
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+.passport-history-changes {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e4e4df;
+}
+
+.passport-history-changes h4 {
+  margin: 0 0 5px;
+  color: #292927;
+  font-size: 10px;
+  font-weight: 760;
+}
+
+.passport-history-changes ul {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.passport-history-changes li {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 7px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ecece8;
+  color: #8b8b85;
+}
+
+.passport-history-changes li > svg {
+  margin-top: 1px;
+  color: #73736e;
+}
+
+.passport-history-changes li div {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.passport-history-changes li strong {
+  color: #51514d;
+  font-size: 8px;
+  font-weight: 760;
+}
+
+.passport-history-changes li span {
+  color: #85857f;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.passport-history-evidence {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 11px;
+  color: #777771;
+  font-size: 8px;
+  line-height: 1.45;
+}
+
+.passport-history-evidence.is-verified {
+  color: #3e6253;
+}
+
+.passport-history-evidence a {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: inherit;
+  font-weight: 740;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 1060px) {
+  .passport-history-timeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 38px 28px;
+  }
+
+  .passport-history-timeline::before {
+    display: none;
+  }
+
+  .passport-history-copy > p {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .passport-history-heading {
+    margin-bottom: 28px;
+  }
+
+  .passport-history-note {
+    max-width: 100%;
+    align-items: flex-start;
+    white-space: normal;
+  }
+
+  .passport-history-timeline {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .passport-history-item {
+    grid-template-columns: 18px minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    gap: 14px 12px;
+    padding-bottom: 40px;
+  }
+
+  .passport-history-item:not(:last-child)::before {
+    top: 7px;
+    left: 9px;
+  }
+
+  .passport-history-dot {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 5px 0 0 4px;
+  }
+
+  .passport-history-cover {
+    grid-column: 2;
+    grid-row: 1;
+    width: 154px;
+    padding: 0;
+  }
+
+  .passport-history-copy {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .archive-cover-country {
+    margin: 0;
+    font-size: 9px;
+  }
+
+  .passport-history-copy h3 {
+    font-size: 15px;
+  }
+
+  .passport-history-copy > p,
+  .passport-history-changes li span {
+    font-size: 10px;
+  }
+
+  .passport-history-changes li {
+    grid-template-columns: 20px minmax(0, 1fr);
+    padding: 10px 0;
   }
 }
