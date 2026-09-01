@@ -34,3 +34,19 @@ destination's official immigration authority before departure.
 The travel planner records the time a user opens a route-specific visa search in
 local browser storage. That timestamp indicates when the search was opened; it
 does not replace confirmation from the destination authority.
+
+## Passport cover history
+
+- Archive source: `Passport Index` country cover images preserved by the `Internet Archive`
+- Archive query: https://web.archive.org/cdx/search/cdx?url=www.passportindex.org/countries/&matchType=prefix&output=json&fl=urlkey,timestamp,digest,statuscode,mimetype,original&filter=statuscode:200&filter=mimetype:image/png&collapse=digest&from=2014&to=2025&limit=10000
+- Local index: `passport-history-sources.json`
+- Local assets: `public/passports-history/<iso3>/`
+- Coverage: all 199 project countries; 464 visually distinct archive captures plus current source references
+
+Archive entries use `dateType: archive-observed`. Their year and `observedAt`
+are the date when the real image was captured by the web archive, not an
+official passport issue date. The interface states this distinction on every
+entry. Where an issuing authority or a public-domain record supports an issue
+period, the entry uses `dateType: official-issue` instead. Passport Index
+images remain subject to the source site's rights; each archive card links to
+the original replay and the CDX evidence record.

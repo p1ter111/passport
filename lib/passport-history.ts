@@ -13,9 +13,15 @@ export type PassportHistoryChange = {
   detail: LocalizedHistoryText;
 };
 
+export type PassportHistoryDateType = "official-issue" | "archive-observed" | "current-reference";
+export type PassportHistoryChangeConfidence = "official-record" | "archive-baseline" | "observed-image-change" | "no-confirmed-change";
+
 export type PassportHistoryEntry = {
   year: number;
   period: string;
+  dateType?: PassportHistoryDateType;
+  observedAt?: string;
+  changeConfidence?: PassportHistoryChangeConfidence;
   title: LocalizedHistoryText;
   description: LocalizedHistoryText;
   changes: PassportHistoryChange[];

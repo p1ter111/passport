@@ -37,7 +37,7 @@ function getLocalizedHistoryText(text: LocalizedHistoryText, locale: string) {
   return locale === "zh-TW" ? toTraditional(localized) : localized;
 }
 
-function VerifiedArchiveCover({ entry, countryName, verifiedLabel }: { entry: PassportHistoryEntry; countryName: string; verifiedLabel: string }) {
+function SourceArchiveCover({ entry, countryName, verifiedLabel }: { entry: PassportHistoryEntry; countryName: string; verifiedLabel: string }) {
   return (
     <figure className="passport-history-cover has-image is-verified-archive">
       <img
@@ -49,6 +49,34 @@ function VerifiedArchiveCover({ entry, countryName, verifiedLabel }: { entry: Pa
       <figcaption><FileCheck2 size={11} />{verifiedLabel}</figcaption>
     </figure>
   );
+}
+
+function formatEntryPeriod(entry: PassportHistoryEntry, locale: string) {
+  if (entry.dateType === "archive-observed") {
+    const value = locale === "zh" || locale === "zh-TW" ? `${entry.year} 年存档` : `${entry.year} archive`;
+    return locale === "zh-TW" ? toTraditional(value) : value;
+  }
+  if (entry.dateType === "current-reference") {
+    const value = locale === "zh" || locale === "zh-TW" ? "当前参考" : "Current reference";
+    return locale === "zh-TW" ? toTraditional(value) : value;
+  }
+  return entry.period;
+}
+
+function getDateBasis(entry: PassportHistoryEntry, locale: string) {
+  if (entry.dateType === "archive-observed") {
+    const date = entry.observedAt?.slice(0, 10) ?? String(entry.year);
+    const value = locale === "zh" || locale === "zh-TW"
+      ? `网页存档于 ${date}，不是推定发行日`
+      : `Web archive captured ${date}; not a claimed issue date`;
+    return locale === "zh-TW" ? toTraditional(value) : value;
+  }
+  if (entry.dateType === "current-reference") {
+    const value = locale === "zh" || locale === "zh-TW" ? "当前真实来源参考图" : "Current real-source reference";
+    return locale === "zh-TW" ? toTraditional(value) : value;
+  }
+  const value = locale === "zh" || locale === "zh-TW" ? "有版本资料支持的发行阶段" : "Issue period supported by edition evidence";
+  return locale === "zh-TW" ? toTraditional(value) : value;
 }
 
 export function PassportHistory({ country, locale }: PassportHistoryProps) {
@@ -89,13 +117,14 @@ export function PassportHistory({ country, locale }: PassportHistoryProps) {
           {history.map((entry) => (
             <article className={`passport-history-item${entry.isCurrent ? " is-current" : ""}`} key={`${entry.year}-${entry.period}`}>
               <div className="passport-history-dot" aria-hidden="true" />
-              <VerifiedArchiveCover entry={entry} countryName={countryName} verifiedLabel={copy.historyVerifiedArchiveImage} />
+              <SourceArchiveCover entry={entry} countryName={countryName} verifiedLabel={copy.historyVerifiedArchiveImage} />
 
               <div className="passport-history-copy">
                 <div className="passport-history-year">
-                  <span>{entry.period}</span>
+                  <span>{formatEntryPeriod(entry, locale)}</span>
                   {entry.isCurrent ? copy.currentEdition : copy.archiveEdition}
                 </div>
+                <div className="passport-history-date-basis"><CalendarDays size={12} />{getDateBasis(entry, locale)}</div>
                 <h3>{getLocalizedHistoryText(entry.title, locale)}</h3>
                 <p>{getLocalizedHistoryText(entry.description, locale)}</p>
 

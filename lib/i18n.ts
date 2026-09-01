@@ -79,13 +79,13 @@ const english: TranslationSection = {
   searchLatestVisa: "Search latest visa requirements",
   passportHistory: "Passport archive",
   passportHistoryTitle: "edition history",
-  passportHistoryIntro: "Only real archive photographs with a traceable source and license are shown.",
+  passportHistoryIntro: "Only real passport-cover images with a traceable source, capture date, and rights statement are shown.",
   currentEdition: "Current edition",
   archiveEdition: "Archive edition",
   historyVerifiedOnly: "Verified images only",
-  historyVerifiedEditions: "verified editions",
-  historyVerifiedArchiveImage: "Verified archive image",
-  historyArchiveUnavailableTitle: "No verified historical cover yet",
+  historyVerifiedEditions: "sourced editions",
+  historyVerifiedArchiveImage: "Real source image",
+  historyArchiveUnavailableTitle: "No sourced historical cover yet",
   historyArchiveUnavailable: "This page will not display a generated or reconstructed cover. Historical photographs will appear after their edition, source and reuse terms have been verified.",
   historyChanges: "What changed",
   historyDesign: "Cover design",
@@ -94,7 +94,7 @@ const english: TranslationSection = {
   historyStandards: "Standards",
   historyImageSource: "Original image",
   historyEvidence: "Edition reference",
-  historyDisclaimer: "Every historical cover shown is a real archive image with a direct source. Generated and reconstructed covers are not used.",
+  historyDisclaimer: "Every cover shown is a real source image. Archive-capture dates are kept separate from verified official issue dates; generated and reconstructed covers are not used.",
 };
 
 const chinese: TranslationSection = {
@@ -124,13 +124,13 @@ const chinese: TranslationSection = {
 };
 
 Object.assign(chinese, {
-  passportHistoryIntro: "只展示具有可追溯来源和许可证信息的真实历史照片。",
+  passportHistoryIntro: "只展示具有可追溯来源、存档日期和权利说明的真实护照封面图片。",
   currentEdition: "当前版本",
   archiveEdition: "历史版本",
   historyVerifiedOnly: "仅展示已核验图片",
-  historyVerifiedEditions: "个已核验版本",
-  historyVerifiedArchiveImage: "已核验历史实物图",
-  historyArchiveUnavailableTitle: "暂未找到可核验的历史封面",
+  historyVerifiedEditions: "个来源版本",
+  historyVerifiedArchiveImage: "真实来源图片",
+  historyArchiveUnavailableTitle: "暂未找到有来源的历史封面",
   historyArchiveUnavailable: "本页面不会展示生成或重建的封面。确认版本、图片来源和使用许可后，真实历史照片才会出现在这里。",
   historyChanges: "本版变化",
   historyDesign: "封面设计",
@@ -139,7 +139,7 @@ Object.assign(chinese, {
   historyStandards: "国际标准",
   historyImageSource: "原始图片",
   historyEvidence: "版本资料",
-  historyDisclaimer: "这里展示的每张历史封面都是带有直接来源的真实档案图片，不使用生成图或视觉重建图。",
+  historyDisclaimer: "这里展示的每张封面都是真实来源图片；网页存档日期与已核验的官方发行年份严格区分，不使用生成图或视觉重建图。",
 });
 
 // Keep Traditional Chinese as a real locale while sharing the maintained

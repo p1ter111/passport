@@ -25,6 +25,7 @@ Open `http://127.0.0.1:3001/`.
 
 ```bash
 npm run lint
+npm run history:validate
 npm run build
 ```
 

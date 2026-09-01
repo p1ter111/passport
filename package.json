@@ -13,6 +13,7 @@
     "covers:refresh:hq": "node scripts/import-high-resolution-passport-covers.mjs",
     "covers:validate": "node scripts/validate-passport-covers.mjs",
     "history:validate": "node scripts/validate-passport-history.mjs",
+    "history:import:archive": "node scripts/import-wayback-passport-history.mjs --write",
     "covers:refresh:fallback": "node scripts/import-real-passport-covers.mjs",
     "covers:import-thumbnails": "node scripts/import-passport-thumbnail-bundle.mjs",
     "i18n:generate": "node scripts/generate-ui-translations.mjs",
