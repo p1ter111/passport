@@ -1,0 +1,240 @@
+{
+  "CHN": [
+    {
+      "year": 1982,
+      "period": "1982-1992",
+      "title": {
+        "en": "Type 82 ordinary passport",
+        "zh": "82版普通护照"
+      },
+      "description": {
+        "en": "The handwritten Type 82 ordinary passport, issued from the early 1980s until the Type 92 series was introduced.",
+        "zh": "82版普通护照自20世纪80年代初开始签发，采用手写资料，之后由92版接替。"
+      },
+      "cover": "/passports-history/chn/1982.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_1982_passport_hu_zhao.jpg",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Chinese_passport#Version_%221982%22",
+      "license": "Public domain",
+      "author": "Scanned by Ovinus Real",
+      "changes": [
+        {
+          "category": "design",
+          "detail": {
+            "en": "Black textured cover with the state title, national emblem and passport name arranged vertically.",
+            "zh": "黑色压纹封面，国名、国徽和“护照”采用纵向层级排布。"
+          }
+        },
+        {
+          "category": "identity",
+          "detail": {
+            "en": "Personal information was handwritten; Chinese, French and English appeared throughout the booklet.",
+            "zh": "个人资料采用手写形式，内页同时使用中文、法文和英文。"
+          }
+        },
+        {
+          "category": "security",
+          "detail": {
+            "en": "The series predated electronic chips and relied on physical printing, seals and manual issuance controls.",
+            "zh": "该版本早于电子芯片时代，主要依赖纸张印刷、印章和人工签发管理。"
+          }
+        },
+        {
+          "category": "standards",
+          "detail": {
+            "en": "This was a pre-machine-readable passport without the modern two-line MRZ.",
+            "zh": "属于非机读护照，尚未采用现代护照底部的两行机读区。"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "period": "1992-2000",
+      "title": {
+        "en": "Type 92 ordinary passport",
+        "zh": "92版普通护照"
+      },
+      "description": {
+        "en": "The Type 92 series introduced a burgundy cover and a more standardized bilingual cover layout, but remained non-machine-readable.",
+        "zh": "92版改用酒红色封面并统一中英文信息层级，但仍属于非机读护照。"
+      },
+      "cover": "/passports-history/chn/1992.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Passport_PRC_92_cover.jpg",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Chinese_passport#Version_%221992%22",
+      "license": "Public domain",
+      "author": "Wikimedia Commons contributor",
+      "changes": [
+        {
+          "category": "design",
+          "detail": {
+            "en": "The cover changed from black to burgundy and added a clearer bilingual title hierarchy beneath the emblem.",
+            "zh": "封面由黑色改为酒红色，国徽下方形成更清晰的中英文标题层级。"
+          }
+        },
+        {
+          "category": "identity",
+          "detail": {
+            "en": "A standardized Type 92 booklet replaced the handwritten-era format, while retaining a non-MRZ data structure.",
+            "zh": "标准化的92版证件取代早期手写时代格式，但资料结构仍未加入机读区。"
+          }
+        },
+        {
+          "category": "security",
+          "detail": {
+            "en": "Printing and booklet production became more standardized; there was still no contactless biometric chip.",
+            "zh": "印刷和证件制作进一步标准化，但仍未配备非接触式生物识别芯片。"
+          }
+        },
+        {
+          "category": "standards",
+          "detail": {
+            "en": "The Type 92 ordinary passport was not machine-readable.",
+            "zh": "92版普通护照仍不符合现代机读护照格式。"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "period": "2000-2007",
+      "title": {
+        "en": "Type 97-1 ordinary passport",
+        "zh": "97-1版普通护照"
+      },
+      "description": {
+        "en": "The Type 97-1 series marked the move toward machine-readable ordinary passports and was issued until the next 97-series revision.",
+        "zh": "97-1版代表普通护照向机读格式过渡，并持续签发至下一次97系列改版。"
+      },
+      "cover": "/passports-history/chn/2000.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Passport_PRC_97.jpg",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Chinese_passport#Format",
+      "license": "Public domain",
+      "author": "Shgd / Wikimedia Commons",
+      "changes": [
+        {
+          "category": "design",
+          "detail": {
+            "en": "The emblem and titles were tightened into a more compact burgundy-cover composition.",
+            "zh": "国徽和中英文标题收紧为更紧凑的酒红色封面构图。"
+          }
+        },
+        {
+          "category": "identity",
+          "detail": {
+            "en": "The series moved personal data toward printed, machine-readable processing.",
+            "zh": "个人资料开始转向印刷式和机读化处理。"
+          }
+        },
+        {
+          "category": "security",
+          "detail": {
+            "en": "Document inspection became less dependent on handwritten information and manual visual checks alone.",
+            "zh": "证件查验不再只依赖手写信息和人工目视检查。"
+          }
+        },
+        {
+          "category": "standards",
+          "detail": {
+            "en": "This generation formed part of China's transition to ICAO-style machine-readable passports.",
+            "zh": "这一代属于中国普通护照向 ICAO 机读护照规范过渡的阶段。"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "period": "2007-2012",
+      "title": {
+        "en": "Type 97-2 ordinary passport",
+        "zh": "97-2版普通护照"
+      },
+      "description": {
+        "en": "The last major non-biometric ordinary series before the nationwide biometric passport launch in May 2012.",
+        "zh": "2012年5月全国启用生物识别护照之前，最后一个主要非生物识别普通护照版本。"
+      },
+      "cover": "/passports-history/chn/2007.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Republic_of_China_passport_(97-2_version).jpg",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Chinese_passport#Version_%221997-2%22",
+      "license": "Public domain",
+      "author": "六月秋凉",
+      "changes": [
+        {
+          "category": "design",
+          "detail": {
+            "en": "The cover enlarged and clarified the state title, emblem and English passport label.",
+            "zh": "封面进一步放大并明确国名、国徽和英文 PASSPORT 标识。"
+          }
+        },
+        {
+          "category": "identity",
+          "detail": {
+            "en": "Personal data was placed on the inside front cover with an inkjet-printed colour photograph and a machine-readable zone.",
+            "zh": "个人资料位于封二，使用喷墨彩色照片，并加入机读区。"
+          }
+        },
+        {
+          "category": "security",
+          "detail": {
+            "en": "A protective film covered most of the data page to make physical alteration more evident.",
+            "zh": "资料页大部分区域覆盖保护膜，使物理篡改更容易被识别。"
+          }
+        },
+        {
+          "category": "standards",
+          "detail": {
+            "en": "The machine-readable code supported automated border inspection; the 2007 Passport Law also standardized validity periods.",
+            "zh": "机读码支持自动化边检；2007年施行的《护照法》同时规范了有效期。"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "period": "2012-current",
+      "title": {
+        "en": "Biometric ordinary passport",
+        "zh": "电子普通护照"
+      },
+      "description": {
+        "en": "China began issuing ordinary biometric passports nationwide on 15 May 2012, adding a contactless chip and redesigned data page.",
+        "zh": "中国自2012年5月15日起正式签发电子普通护照，加入非接触式芯片并重新设计资料页。"
+      },
+      "cover": "/passports-history/chn/2012.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Republic_of_China_Biometric_passport.jpg",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Chinese_passport#Biometric_passport",
+      "license": "Public domain",
+      "author": "A20120312",
+      "isCurrent": true,
+      "changes": [
+        {
+          "category": "design",
+          "detail": {
+            "en": "The international ePassport symbol was added to the cover and the internal data-page design was substantially revised.",
+            "zh": "封面新增国际电子护照标志，内部资料页设计大幅调整。"
+          }
+        },
+        {
+          "category": "identity",
+          "detail": {
+            "en": "The data page moved to a separate sheet and biometric identity data could be stored in the chip.",
+            "zh": "资料页移至独立页面，生物识别身份信息可写入芯片。"
+          }
+        },
+        {
+          "category": "security",
+          "detail": {
+            "en": "A contactless chip, digital certificate, ghost portrait, holographic graphics and laser-printed map strengthened authentication.",
+            "zh": "非接触式芯片、数字证书、第二人像、全息图案和激光地图共同增强真伪验证。"
+          }
+        },
+        {
+          "category": "standards",
+          "detail": {
+            "en": "The ordinary passport became an ICAO-compatible biometric ePassport.",
+            "zh": "普通护照升级为符合 ICAO 规范的生物识别电子护照。"
+          }
+        }
+      ]
+    }
+  ]
+}

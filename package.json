@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "npm run covers:validate",
+    "prebuild": "npm run covers:validate && npm run history:validate",
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
@@ -12,6 +12,7 @@
     "rankings:refresh": "node scripts/refresh-henley-ranking.mjs && node scripts/generate-passport-data.mjs",
     "covers:refresh:hq": "node scripts/import-high-resolution-passport-covers.mjs",
     "covers:validate": "node scripts/validate-passport-covers.mjs",
+    "history:validate": "node scripts/validate-passport-history.mjs",
     "covers:refresh:fallback": "node scripts/import-real-passport-covers.mjs",
     "covers:import-thumbnails": "node scripts/import-passport-thumbnail-bundle.mjs",
     "i18n:generate": "node scripts/generate-ui-translations.mjs",
