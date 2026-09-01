@@ -1,0 +1,30 @@
+export type Region = "亚洲" | "欧洲" | "北美洲" | "南美洲" | "大洋洲" | "非洲" | "中东";
+
+export type CountryProfile = {
+  name: string;
+  nameZh: string;
+  nativeName: string;
+  flag: string;
+  iso2: string;
+  iso3: string;
+  numericId: string;
+  passportRank: number;
+  visaFreeCountries: number;
+  visaOnArrivalCountries: number;
+  etaCountries: number;
+  eVisaCountries: number;
+  visaRequiredCountries: number;
+  noAdmissionCountries: number;
+  accessibleCountries: number;
+  matrixAccessibleCountries?: number;
+  freedomScore: number;
+  region: Region;
+  passportColor: string;
+  passportCover: string;
+  passportCoverSource?: string;
+  passportCoverLicense?: string;
+  passportCoverNote?: string;
+  intro: string;
+  aliases: string[];
+  dataReady?: boolean;
+};

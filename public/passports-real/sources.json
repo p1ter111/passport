@@ -1,0 +1,1793 @@
+{
+  "ARE": {
+    "country": "United Arab Emirates",
+    "file": "are.webp",
+    "source": "https://img.passportindex.org/countries/thum/ae.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SGP": {
+    "country": "Singapore",
+    "file": "sgp.webp",
+    "source": "https://img.passportindex.org/countries/thum/sg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KOR": {
+    "country": "South Korea",
+    "file": "kor.webp",
+    "source": "https://img.passportindex.org/countries/thum/kr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "JPN": {
+    "country": "Japan",
+    "file": "jpn.webp",
+    "source": "https://img.passportindex.org/countries/thum/jp.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ESP": {
+    "country": "Spain",
+    "file": "esp.webp",
+    "source": "https://img.passportindex.org/countries/thum/es.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BEL": {
+    "country": "Belgium",
+    "file": "bel.webp",
+    "source": "https://img.passportindex.org/countries/thum/be.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "FRA": {
+    "country": "France",
+    "file": "fra.webp",
+    "source": "https://img.passportindex.org/countries/thum/fr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "FIN": {
+    "country": "Finland",
+    "file": "fin.webp",
+    "source": "https://img.passportindex.org/countries/thum/fi.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "DEU": {
+    "country": "Germany",
+    "file": "deu.webp",
+    "source": "https://img.passportindex.org/countries/thum/de.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ITA": {
+    "country": "Italy",
+    "file": "ita.webp",
+    "source": "https://img.passportindex.org/countries/thum/it.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LUX": {
+    "country": "Luxembourg",
+    "file": "lux.webp",
+    "source": "https://img.passportindex.org/countries/thum/lu.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MYS": {
+    "country": "Malaysia",
+    "file": "mys.webp",
+    "source": "https://img.passportindex.org/countries/thum/my.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NLD": {
+    "country": "Netherlands",
+    "file": "nld.webp",
+    "source": "https://img.passportindex.org/countries/thum/nl.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SWE": {
+    "country": "Sweden",
+    "file": "swe.webp",
+    "source": "https://img.passportindex.org/countries/thum/se.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "DNK": {
+    "country": "Denmark",
+    "file": "dnk.webp",
+    "source": "https://img.passportindex.org/countries/thum/dk.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CHE": {
+    "country": "Switzerland",
+    "file": "che.webp",
+    "source": "https://img.passportindex.org/countries/thum/ch.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "IRL": {
+    "country": "Ireland",
+    "file": "irl.webp",
+    "source": "https://img.passportindex.org/countries/thum/ie.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NOR": {
+    "country": "Norway",
+    "file": "nor.webp",
+    "source": "https://img.passportindex.org/countries/thum/no.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MLT": {
+    "country": "Malta",
+    "file": "mlt.webp",
+    "source": "https://img.passportindex.org/countries/thum/mt.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PRT": {
+    "country": "Portugal",
+    "file": "prt.webp",
+    "source": "https://img.passportindex.org/countries/thum/pt.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GRC": {
+    "country": "Greece",
+    "file": "grc.webp",
+    "source": "https://img.passportindex.org/countries/thum/gr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "POL": {
+    "country": "Poland",
+    "file": "pol.webp",
+    "source": "https://img.passportindex.org/countries/thum/pl.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "AUT": {
+    "country": "Austria",
+    "file": "aut.webp",
+    "source": "https://img.passportindex.org/countries/thum/at.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "HRV": {
+    "country": "Croatia",
+    "file": "hrv.webp",
+    "source": "https://img.passportindex.org/countries/thum/hr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "HUN": {
+    "country": "Hungary",
+    "file": "hun.webp",
+    "source": "https://img.passportindex.org/countries/thum/hu.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SVK": {
+    "country": "Slovakia",
+    "file": "svk.webp",
+    "source": "https://img.passportindex.org/countries/thum/sk.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SVN": {
+    "country": "Slovenia",
+    "file": "svn.webp",
+    "source": "https://img.passportindex.org/countries/thum/si.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ROU": {
+    "country": "Romania",
+    "file": "rou.webp",
+    "source": "https://img.passportindex.org/countries/thum/ro.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BGR": {
+    "country": "Bulgaria",
+    "file": "bgr.webp",
+    "source": "https://img.passportindex.org/countries/thum/bg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CZE": {
+    "country": "Czech Republic",
+    "file": "cze.webp",
+    "source": "https://img.passportindex.org/countries/thum/cz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "EST": {
+    "country": "Estonia",
+    "file": "est.webp",
+    "source": "https://img.passportindex.org/countries/thum/ee.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LVA": {
+    "country": "Latvia",
+    "file": "lva.webp",
+    "source": "https://img.passportindex.org/countries/thum/lv.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NZL": {
+    "country": "New Zealand",
+    "file": "nzl.webp",
+    "source": "https://img.passportindex.org/countries/thum/nz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LTU": {
+    "country": "Lithuania",
+    "file": "ltu.webp",
+    "source": "https://img.passportindex.org/countries/thum/lt.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "AUS": {
+    "country": "Australia",
+    "file": "aus.webp",
+    "source": "https://img.passportindex.org/countries/thum/au.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CYP": {
+    "country": "Cyprus",
+    "file": "cyp.webp",
+    "source": "https://img.passportindex.org/countries/thum/cy.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GBR": {
+    "country": "United Kingdom",
+    "file": "gbr.webp",
+    "source": "https://img.passportindex.org/countries/thum/gb.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LIE": {
+    "country": "Liechtenstein",
+    "file": "lie.webp",
+    "source": "https://img.passportindex.org/countries/thum/li.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CAN": {
+    "country": "Canada",
+    "file": "can.webp",
+    "source": "https://img.passportindex.org/countries/thum/ca.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ISL": {
+    "country": "Iceland",
+    "file": "isl.webp",
+    "source": "https://img.passportindex.org/countries/thum/is.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "HKG": {
+    "country": "Hong Kong",
+    "file": "hkg.webp",
+    "source": "https://img.passportindex.org/countries/thum/hk.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "USA": {
+    "country": "United States of America",
+    "file": "usa.webp",
+    "source": "https://img.passportindex.org/countries/thum/us.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MCO": {
+    "country": "Monaco",
+    "file": "mco.webp",
+    "source": "https://img.passportindex.org/countries/thum/mc.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BRA": {
+    "country": "Brazil",
+    "file": "bra.webp",
+    "source": "https://img.passportindex.org/countries/thum/br.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ARG": {
+    "country": "Argentina",
+    "file": "arg.webp",
+    "source": "https://img.passportindex.org/countries/thum/ar.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CHL": {
+    "country": "Chile",
+    "file": "chl.webp",
+    "source": "https://img.passportindex.org/countries/thum/cl.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "AND": {
+    "country": "Andorra",
+    "file": "and.webp",
+    "source": "https://img.passportindex.org/countries/thum/ad.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SMR": {
+    "country": "San Marino",
+    "file": "smr.webp",
+    "source": "https://img.passportindex.org/countries/thum/sm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BRB": {
+    "country": "Barbados",
+    "file": "brb.webp",
+    "source": "https://img.passportindex.org/countries/thum/bb.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ISR": {
+    "country": "Israel",
+    "file": "isr.webp",
+    "source": "https://img.passportindex.org/countries/thum/il.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BRN": {
+    "country": "Brunei Darussalam",
+    "file": "brn.webp",
+    "source": "https://img.passportindex.org/countries/thum/bn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BHS": {
+    "country": "Bahamas",
+    "file": "bhs.webp",
+    "source": "https://img.passportindex.org/countries/thum/bs.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "URY": {
+    "country": "Uruguay",
+    "file": "ury.webp",
+    "source": "https://img.passportindex.org/countries/thum/uy.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KNA": {
+    "country": "Saint Kitts and Nevis",
+    "file": "kna.webp",
+    "source": "https://img.passportindex.org/countries/thum/kn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MEX": {
+    "country": "Mexico",
+    "file": "mex.webp",
+    "source": "https://img.passportindex.org/countries/thum/mx.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "VCT": {
+    "country": "Saint Vincent and the Grenadines",
+    "file": "vct.webp",
+    "source": "https://img.passportindex.org/countries/thum/vc.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "VAT": {
+    "country": "Holy See (Vatican City State)",
+    "file": "vat.webp",
+    "source": "https://img.passportindex.org/countries/thum/va.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SYC": {
+    "country": "Seychelles",
+    "file": "syc.webp",
+    "source": "https://img.passportindex.org/countries/thum/sc.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PER": {
+    "country": "Peru",
+    "file": "per.webp",
+    "source": "https://img.passportindex.org/countries/thum/pe.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ATG": {
+    "country": "Antigua and Barbuda",
+    "file": "atg.webp",
+    "source": "https://img.passportindex.org/countries/thum/ag.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "UKR": {
+    "country": "Ukraine",
+    "file": "ukr.webp",
+    "source": "https://img.passportindex.org/countries/thum/ua.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MAC": {
+    "country": "Macao",
+    "file": "mac.webp",
+    "source": "https://img.passportindex.org/countries/thum/mo.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GRD": {
+    "country": "Grenada",
+    "file": "grd.webp",
+    "source": "https://img.passportindex.org/countries/thum/gd.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CRI": {
+    "country": "Costa Rica",
+    "file": "cri.webp",
+    "source": "https://img.passportindex.org/countries/thum/cr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TTO": {
+    "country": "Trinidad and Tobago",
+    "file": "tto.webp",
+    "source": "https://img.passportindex.org/countries/thum/tt.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MUS": {
+    "country": "Mauritius",
+    "file": "mus.webp",
+    "source": "https://img.passportindex.org/countries/thum/mu.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PRY": {
+    "country": "Paraguay",
+    "file": "pry.webp",
+    "source": "https://img.passportindex.org/countries/thum/py.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PAN": {
+    "country": "Panama",
+    "file": "pan.webp",
+    "source": "https://img.passportindex.org/countries/thum/pa.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LCA": {
+    "country": "Saint Lucia",
+    "file": "lca.webp",
+    "source": "https://img.passportindex.org/countries/thum/lc.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "DMA": {
+    "country": "Dominica",
+    "file": "dma.webp",
+    "source": "https://img.passportindex.org/countries/thum/dm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SRB": {
+    "country": "Serbia",
+    "file": "srb.webp",
+    "source": "https://img.passportindex.org/countries/thum/rs.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SLB": {
+    "country": "Solomon Islands",
+    "file": "slb.webp",
+    "source": "https://img.passportindex.org/countries/thum/sb.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GEO": {
+    "country": "Georgia",
+    "file": "geo.webp",
+    "source": "https://img.passportindex.org/countries/thum/ge.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "COL": {
+    "country": "Colombia",
+    "file": "col.webp",
+    "source": "https://img.passportindex.org/countries/thum/co.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MNE": {
+    "country": "Montenegro",
+    "file": "mne.webp",
+    "source": "https://img.passportindex.org/countries/thum/me.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MKD": {
+    "country": "The Republic of North Macedonia",
+    "file": "mkd.webp",
+    "source": "https://img.passportindex.org/countries/thum/mk.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SLV": {
+    "country": "El Salvador",
+    "file": "slv.webp",
+    "source": "https://img.passportindex.org/countries/thum/sv.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "WSM": {
+    "country": "Samoa",
+    "file": "wsm.webp",
+    "source": "https://img.passportindex.org/countries/thum/ws.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TUV": {
+    "country": "Tuvalu",
+    "file": "tuv.webp",
+    "source": "https://img.passportindex.org/countries/thum/tv.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "RUS": {
+    "country": "Russian Federation",
+    "file": "rus.webp",
+    "source": "https://img.passportindex.org/countries/thum/ru.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GTM": {
+    "country": "Guatemala",
+    "file": "gtm.webp",
+    "source": "https://img.passportindex.org/countries/thum/gt.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "HND": {
+    "country": "Honduras",
+    "file": "hnd.webp",
+    "source": "https://img.passportindex.org/countries/thum/hn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TWN": {
+    "country": "Taiwan, Province of China",
+    "file": "twn.webp",
+    "source": "https://img.passportindex.org/countries/thum/tw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TON": {
+    "country": "Tonga",
+    "file": "ton.webp",
+    "source": "https://img.passportindex.org/countries/thum/to.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KIR": {
+    "country": "Kiribati",
+    "file": "kir.webp",
+    "source": "https://img.passportindex.org/countries/thum/ki.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TUR": {
+    "country": "Türkiye",
+    "file": "tur.webp",
+    "source": "https://img.passportindex.org/countries/thum/tr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BIH": {
+    "country": "Bosnia and Herzegovina",
+    "file": "bih.webp",
+    "source": "https://img.passportindex.org/countries/thum/ba.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MHL": {
+    "country": "Marshall Islands",
+    "file": "mhl.webp",
+    "source": "https://img.passportindex.org/countries/thum/mh.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NIC": {
+    "country": "Nicaragua",
+    "file": "nic.webp",
+    "source": "https://img.passportindex.org/countries/thum/ni.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MDA": {
+    "country": "Moldova, Republic of",
+    "file": "mda.webp",
+    "source": "https://img.passportindex.org/countries/thum/md.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "VEN": {
+    "country": "Venezuela",
+    "file": "ven.webp",
+    "source": "https://img.passportindex.org/countries/thum/ve.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ALB": {
+    "country": "Albania",
+    "file": "alb.webp",
+    "source": "https://img.passportindex.org/countries/thum/al.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "QAT": {
+    "country": "Qatar",
+    "file": "qat.webp",
+    "source": "https://img.passportindex.org/countries/thum/qa.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PLW": {
+    "country": "Palau",
+    "file": "plw.webp",
+    "source": "https://img.passportindex.org/countries/thum/pw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "FSM": {
+    "country": "Micronesia, Federated States of",
+    "file": "fsm.webp",
+    "source": "https://img.passportindex.org/countries/thum/fm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KWT": {
+    "country": "Kuwait",
+    "file": "kwt.webp",
+    "source": "https://img.passportindex.org/countries/thum/kw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ZAF": {
+    "country": "South Africa",
+    "file": "zaf.webp",
+    "source": "https://img.passportindex.org/countries/thum/za.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BLZ": {
+    "country": "Belize",
+    "file": "blz.webp",
+    "source": "https://img.passportindex.org/countries/thum/bz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MDV": {
+    "country": "Maldives",
+    "file": "mdv.webp",
+    "source": "https://img.passportindex.org/countries/thum/mv.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SAU": {
+    "country": "Saudi Arabia",
+    "file": "sau.webp",
+    "source": "https://img.passportindex.org/countries/thum/sa.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BHR": {
+    "country": "Bahrain",
+    "file": "bhr.webp",
+    "source": "https://img.passportindex.org/countries/thum/bh.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TLS": {
+    "country": "Timor-Leste",
+    "file": "tls.webp",
+    "source": "https://img.passportindex.org/countries/thum/tl.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ECU": {
+    "country": "Ecuador",
+    "file": "ecu.webp",
+    "source": "https://img.passportindex.org/countries/thum/ec.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "JAM": {
+    "country": "Jamaica",
+    "file": "jam.webp",
+    "source": "https://img.passportindex.org/countries/thum/jm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GUY": {
+    "country": "Guyana",
+    "file": "guy.webp",
+    "source": "https://img.passportindex.org/countries/thum/gy.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "OMN": {
+    "country": "Oman",
+    "file": "omn.webp",
+    "source": "https://img.passportindex.org/countries/thum/om.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "FJI": {
+    "country": "Fiji",
+    "file": "fji.webp",
+    "source": "https://img.passportindex.org/countries/thum/fj.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BLR": {
+    "country": "Belarus",
+    "file": "blr.webp",
+    "source": "https://img.passportindex.org/countries/thum/by.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "XKX": {
+    "country": "Kosovo",
+    "file": "xkx.webp",
+    "source": "https://img.passportindex.org/countries/thum/xk.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "VUT": {
+    "country": "Vanuatu",
+    "file": "vut.webp",
+    "source": "https://img.passportindex.org/countries/thum/vu.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "THA": {
+    "country": "Thailand",
+    "file": "tha.webp",
+    "source": "https://img.passportindex.org/countries/thum/th.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KAZ": {
+    "country": "Kazakhstan",
+    "file": "kaz.webp",
+    "source": "https://img.passportindex.org/countries/thum/kz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "IDN": {
+    "country": "Indonesia",
+    "file": "idn.webp",
+    "source": "https://img.passportindex.org/countries/thum/id.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CHN": {
+    "country": "People's Republic of China",
+    "file": "chn.webp",
+    "source": "https://img.passportindex.org/countries/thum/cn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NRU": {
+    "country": "Nauru",
+    "file": "nru.webp",
+    "source": "https://img.passportindex.org/countries/thum/nr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BWA": {
+    "country": "Botswana",
+    "file": "bwa.webp",
+    "source": "https://img.passportindex.org/countries/thum/bw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PNG": {
+    "country": "Papua New Guinea",
+    "file": "png.webp",
+    "source": "https://img.passportindex.org/countries/thum/pg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MAR": {
+    "country": "Morocco",
+    "file": "mar.webp",
+    "source": "https://img.passportindex.org/countries/thum/ma.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "AZE": {
+    "country": "Azerbaijan",
+    "file": "aze.webp",
+    "source": "https://img.passportindex.org/countries/thum/az.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BOL": {
+    "country": "Bolivia",
+    "file": "bol.webp",
+    "source": "https://img.passportindex.org/countries/thum/bo.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LSO": {
+    "country": "Lesotho",
+    "file": "lso.webp",
+    "source": "https://img.passportindex.org/countries/thum/ls.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SUR": {
+    "country": "Suriname",
+    "file": "sur.webp",
+    "source": "https://img.passportindex.org/countries/thum/sr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NAM": {
+    "country": "Namibia",
+    "file": "nam.webp",
+    "source": "https://img.passportindex.org/countries/thum/na.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SWZ": {
+    "country": "Eswatini",
+    "file": "swz.webp",
+    "source": "https://img.passportindex.org/countries/thum/sz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MWI": {
+    "country": "Malawi",
+    "file": "mwi.webp",
+    "source": "https://img.passportindex.org/countries/thum/mw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ARM": {
+    "country": "Armenia",
+    "file": "arm.webp",
+    "source": "https://img.passportindex.org/countries/thum/am.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "DOM": {
+    "country": "Dominican Republic",
+    "file": "dom.webp",
+    "source": "https://img.passportindex.org/countries/thum/do.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TZA": {
+    "country": "United Republic of Tanzania",
+    "file": "tza.webp",
+    "source": "https://img.passportindex.org/countries/thum/tz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KEN": {
+    "country": "Kenya",
+    "file": "ken.webp",
+    "source": "https://img.passportindex.org/countries/thum/ke.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GMB": {
+    "country": "Republic of The Gambia",
+    "file": "gmb.webp",
+    "source": "https://img.passportindex.org/countries/thum/gm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TUN": {
+    "country": "Tunisia",
+    "file": "tun.webp",
+    "source": "https://img.passportindex.org/countries/thum/tn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GHA": {
+    "country": "Ghana",
+    "file": "gha.webp",
+    "source": "https://img.passportindex.org/countries/thum/gh.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CPV": {
+    "country": "Cape Verde",
+    "file": "cpv.webp",
+    "source": "https://img.passportindex.org/countries/thum/cv.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MNG": {
+    "country": "Mongolia",
+    "file": "mng.webp",
+    "source": "https://img.passportindex.org/countries/thum/mn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ZMB": {
+    "country": "Zambia",
+    "file": "zmb.webp",
+    "source": "https://img.passportindex.org/countries/thum/zm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PHL": {
+    "country": "Philippines",
+    "file": "phl.webp",
+    "source": "https://img.passportindex.org/countries/thum/ph.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "UGA": {
+    "country": "Uganda",
+    "file": "uga.webp",
+    "source": "https://img.passportindex.org/countries/thum/ug.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "RWA": {
+    "country": "Rwanda",
+    "file": "rwa.webp",
+    "source": "https://img.passportindex.org/countries/thum/rw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KGZ": {
+    "country": "Kyrgyzstan",
+    "file": "kgz.webp",
+    "source": "https://img.passportindex.org/countries/thum/kg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "UZB": {
+    "country": "Uzbekistan",
+    "file": "uzb.webp",
+    "source": "https://img.passportindex.org/countries/thum/uz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SLE": {
+    "country": "Sierra Leone",
+    "file": "sle.webp",
+    "source": "https://img.passportindex.org/countries/thum/sl.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ZWE": {
+    "country": "Zimbabwe",
+    "file": "zwe.webp",
+    "source": "https://img.passportindex.org/countries/thum/zw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BEN": {
+    "country": "Benin",
+    "file": "ben.webp",
+    "source": "https://img.passportindex.org/countries/thum/bj.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "STP": {
+    "country": "Sao Tome and Principe",
+    "file": "stp.webp",
+    "source": "https://img.passportindex.org/countries/thum/st.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MDG": {
+    "country": "Madagascar",
+    "file": "mdg.webp",
+    "source": "https://img.passportindex.org/countries/thum/mg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SEN": {
+    "country": "Senegal",
+    "file": "sen.webp",
+    "source": "https://img.passportindex.org/countries/thum/sn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MOZ": {
+    "country": "Mozambique",
+    "file": "moz.webp",
+    "source": "https://img.passportindex.org/countries/thum/mz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CUB": {
+    "country": "Cuba",
+    "file": "cub.webp",
+    "source": "https://img.passportindex.org/countries/thum/cu.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GAB": {
+    "country": "Gabon",
+    "file": "gab.webp",
+    "source": "https://img.passportindex.org/countries/thum/ga.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TGO": {
+    "country": "Togo",
+    "file": "tgo.webp",
+    "source": "https://img.passportindex.org/countries/thum/tg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "IND": {
+    "country": "India",
+    "file": "ind.webp",
+    "source": "https://img.passportindex.org/countries/thum/in.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TJK": {
+    "country": "Tajikistan",
+    "file": "tjk.webp",
+    "source": "https://img.passportindex.org/countries/thum/tj.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BFA": {
+    "country": "Burkina Faso",
+    "file": "bfa.webp",
+    "source": "https://img.passportindex.org/countries/thum/bf.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GNQ": {
+    "country": "Equatorial Guinea",
+    "file": "gnq.webp",
+    "source": "https://img.passportindex.org/countries/thum/gq.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "DZA": {
+    "country": "Algeria",
+    "file": "dza.webp",
+    "source": "https://img.passportindex.org/countries/thum/dz.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NER": {
+    "country": "Niger",
+    "file": "ner.webp",
+    "source": "https://img.passportindex.org/countries/thum/ne.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CIV": {
+    "country": "Cote d'Ivoire",
+    "file": "civ.webp",
+    "source": "https://img.passportindex.org/countries/thum/ci.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GIN": {
+    "country": "Guinea",
+    "file": "gin.webp",
+    "source": "https://img.passportindex.org/countries/thum/gn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MRT": {
+    "country": "Mauritania",
+    "file": "mrt.webp",
+    "source": "https://img.passportindex.org/countries/thum/mr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "VNM": {
+    "country": "Vietnam",
+    "file": "vnm.webp",
+    "source": "https://img.passportindex.org/countries/thum/vn.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "COM": {
+    "country": "Comoros",
+    "file": "com.webp",
+    "source": "https://img.passportindex.org/countries/thum/km.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MLI": {
+    "country": "Mali",
+    "file": "mli.webp",
+    "source": "https://img.passportindex.org/countries/thum/ml.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TCD": {
+    "country": "Chad",
+    "file": "tcd.webp",
+    "source": "https://img.passportindex.org/countries/thum/td.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "KHM": {
+    "country": "Cambodia",
+    "file": "khm.webp",
+    "source": "https://img.passportindex.org/countries/thum/kh.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "GNB": {
+    "country": "Guinea-Bissau",
+    "file": "gnb.webp",
+    "source": "https://img.passportindex.org/countries/thum/gw.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "JOR": {
+    "country": "Jordan",
+    "file": "jor.webp",
+    "source": "https://img.passportindex.org/countries/thum/jo.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BTN": {
+    "country": "Bhutan",
+    "file": "btn.webp",
+    "source": "https://img.passportindex.org/countries/thum/bt.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CAF": {
+    "country": "Central African Republic",
+    "file": "caf.webp",
+    "source": "https://img.passportindex.org/countries/thum/cf.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "EGY": {
+    "country": "Egypt",
+    "file": "egy.webp",
+    "source": "https://img.passportindex.org/countries/thum/eg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LBR": {
+    "country": "Liberia",
+    "file": "lbr.webp",
+    "source": "https://img.passportindex.org/countries/thum/lr.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "AGO": {
+    "country": "Angola",
+    "file": "ago.webp",
+    "source": "https://img.passportindex.org/countries/thum/ao.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BDI": {
+    "country": "Burundi",
+    "file": "bdi.webp",
+    "source": "https://img.passportindex.org/countries/thum/bi.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "CMR": {
+    "country": "Cameroon",
+    "file": "cmr.webp",
+    "source": "https://img.passportindex.org/countries/thum/cm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "COG": {
+    "country": "Republic of the Congo",
+    "file": "cog.webp",
+    "source": "https://img.passportindex.org/countries/thum/cg.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "TKM": {
+    "country": "Turkmenistan",
+    "file": "tkm.webp",
+    "source": "https://img.passportindex.org/countries/thum/tm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LAO": {
+    "country": "Lao People's Democratic Republic",
+    "file": "lao.webp",
+    "source": "https://img.passportindex.org/countries/thum/la.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "DJI": {
+    "country": "Djibouti",
+    "file": "dji.webp",
+    "source": "https://img.passportindex.org/countries/thum/dj.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "HTI": {
+    "country": "Haiti",
+    "file": "hti.webp",
+    "source": "https://img.passportindex.org/countries/thum/ht.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LBN": {
+    "country": "Lebanon",
+    "file": "lbn.webp",
+    "source": "https://img.passportindex.org/countries/thum/lb.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ETH": {
+    "country": "Ethiopia",
+    "file": "eth.webp",
+    "source": "https://img.passportindex.org/countries/thum/et.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NGA": {
+    "country": "Nigeria",
+    "file": "nga.webp",
+    "source": "https://img.passportindex.org/countries/thum/ng.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SSD": {
+    "country": "South Sudan",
+    "file": "ssd.webp",
+    "source": "https://img.passportindex.org/countries/thum/ss.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "COD": {
+    "country": "Democratic Republic of the Congo",
+    "file": "cod.webp",
+    "source": "https://img.passportindex.org/countries/thum/cd.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "MMR": {
+    "country": "Myanmar",
+    "file": "mmr.webp",
+    "source": "https://img.passportindex.org/countries/thum/mm.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LBY": {
+    "country": "Libya",
+    "file": "lby.webp",
+    "source": "https://img.passportindex.org/countries/thum/ly.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "LKA": {
+    "country": "Sri Lanka",
+    "file": "lka.webp",
+    "source": "https://img.passportindex.org/countries/thum/lk.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "IRN": {
+    "country": "Islamic Republic of Iran",
+    "file": "irn.webp",
+    "source": "https://img.passportindex.org/countries/thum/ir.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SDN": {
+    "country": "Sudan",
+    "file": "sdn.webp",
+    "source": "https://img.passportindex.org/countries/thum/sd.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PRK": {
+    "country": "North Korea",
+    "file": "prk.webp",
+    "source": "https://img.passportindex.org/countries/thum/kp.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "ERI": {
+    "country": "Eritrea",
+    "file": "eri.webp",
+    "source": "https://img.passportindex.org/countries/thum/er.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "NPL": {
+    "country": "Nepal",
+    "file": "npl.webp",
+    "source": "https://img.passportindex.org/countries/thum/np.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PSE": {
+    "country": "State of Palestine",
+    "file": "pse.webp",
+    "source": "https://img.passportindex.org/countries/thum/ps.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "BGD": {
+    "country": "Bangladesh",
+    "file": "bgd.webp",
+    "source": "https://img.passportindex.org/countries/thum/bd.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "YEM": {
+    "country": "Yemen",
+    "file": "yem.webp",
+    "source": "https://img.passportindex.org/countries/thum/ye.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SOM": {
+    "country": "Somalia",
+    "file": "som.webp",
+    "source": "https://img.passportindex.org/countries/thum/so.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "PAK": {
+    "country": "Pakistan",
+    "file": "pak.webp",
+    "source": "https://img.passportindex.org/countries/thum/pk.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "IRQ": {
+    "country": "Iraq",
+    "file": "irq.webp",
+    "source": "https://img.passportindex.org/countries/thum/iq.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "SYR": {
+    "country": "Syrian Arab Republic",
+    "file": "syr.webp",
+    "source": "https://img.passportindex.org/countries/thum/sy.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  },
+  "AFG": {
+    "country": "Afghanistan",
+    "file": "afg.webp",
+    "source": "https://img.passportindex.org/countries/thum/af.png",
+    "sourcePage": "https://www.passportindex.org/",
+    "width": 112,
+    "height": 160,
+    "note": "Publicly displayed passport-cover thumbnail; source terms apply."
+  }
+}

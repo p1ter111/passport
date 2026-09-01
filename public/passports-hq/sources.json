@@ -1,0 +1,1792 @@
+{
+  "ARE": {
+    "country": "United Arab Emirates",
+    "file": "are.webp",
+    "source": "https://img.passportindex.org/countries/ae.png",
+    "sourcePage": "https://www.passportindex.org/?country=ae",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SGP": {
+    "country": "Singapore",
+    "file": "sgp.webp",
+    "source": "https://img.passportindex.org/countries/sg.png",
+    "sourcePage": "https://www.passportindex.org/?country=sg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KOR": {
+    "country": "South Korea",
+    "file": "kor.webp",
+    "source": "https://img.passportindex.org/countries/kr.png",
+    "sourcePage": "https://www.passportindex.org/?country=kr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "JPN": {
+    "country": "Japan",
+    "file": "jpn.webp",
+    "source": "https://img.passportindex.org/countries/jp.png",
+    "sourcePage": "https://www.passportindex.org/?country=jp",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ESP": {
+    "country": "Spain",
+    "file": "esp.webp",
+    "source": "https://img.passportindex.org/countries/es.png",
+    "sourcePage": "https://www.passportindex.org/?country=es",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BEL": {
+    "country": "Belgium",
+    "file": "bel.webp",
+    "source": "https://img.passportindex.org/countries/be.png",
+    "sourcePage": "https://www.passportindex.org/?country=be",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "FRA": {
+    "country": "France",
+    "file": "fra.webp",
+    "source": "https://img.passportindex.org/countries/fr.png",
+    "sourcePage": "https://www.passportindex.org/?country=fr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "FIN": {
+    "country": "Finland",
+    "file": "fin.webp",
+    "source": "https://img.passportindex.org/countries/fi.png",
+    "sourcePage": "https://www.passportindex.org/?country=fi",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "DEU": {
+    "country": "Germany",
+    "file": "deu.webp",
+    "source": "https://img.passportindex.org/countries/de.png",
+    "sourcePage": "https://www.passportindex.org/?country=de",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ITA": {
+    "country": "Italy",
+    "file": "ita.webp",
+    "source": "https://img.passportindex.org/countries/it.png",
+    "sourcePage": "https://www.passportindex.org/?country=it",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LUX": {
+    "country": "Luxembourg",
+    "file": "lux.webp",
+    "source": "https://img.passportindex.org/countries/lu.png",
+    "sourcePage": "https://www.passportindex.org/?country=lu",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MYS": {
+    "country": "Malaysia",
+    "file": "mys.webp",
+    "source": "https://img.passportindex.org/countries/my.png",
+    "sourcePage": "https://www.passportindex.org/?country=my",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NLD": {
+    "country": "Netherlands",
+    "file": "nld.webp",
+    "source": "https://img.passportindex.org/countries/nl.png",
+    "sourcePage": "https://www.passportindex.org/?country=nl",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SWE": {
+    "country": "Sweden",
+    "file": "swe.webp",
+    "source": "https://img.passportindex.org/countries/se.png",
+    "sourcePage": "https://www.passportindex.org/?country=se",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "DNK": {
+    "country": "Denmark",
+    "file": "dnk.webp",
+    "source": "https://img.passportindex.org/countries/dk.png",
+    "sourcePage": "https://www.passportindex.org/?country=dk",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CHE": {
+    "country": "Switzerland",
+    "file": "che.webp",
+    "source": "https://img.passportindex.org/countries/ch.png",
+    "sourcePage": "https://www.passportindex.org/?country=ch",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "IRL": {
+    "country": "Ireland",
+    "file": "irl.webp",
+    "source": "https://img.passportindex.org/countries/ie.png",
+    "sourcePage": "https://www.passportindex.org/?country=ie",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NOR": {
+    "country": "Norway",
+    "file": "nor.webp",
+    "source": "https://img.passportindex.org/countries/no.png",
+    "sourcePage": "https://www.passportindex.org/?country=no",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MLT": {
+    "country": "Malta",
+    "file": "mlt.webp",
+    "source": "https://img.passportindex.org/countries/mt.png",
+    "sourcePage": "https://www.passportindex.org/?country=mt",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PRT": {
+    "country": "Portugal",
+    "file": "prt.webp",
+    "source": "https://img.passportindex.org/countries/pt.png",
+    "sourcePage": "https://www.passportindex.org/?country=pt",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GRC": {
+    "country": "Greece",
+    "file": "grc.webp",
+    "source": "https://img.passportindex.org/countries/gr.png",
+    "sourcePage": "https://www.passportindex.org/?country=gr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "POL": {
+    "country": "Poland",
+    "file": "pol.webp",
+    "source": "https://img.passportindex.org/countries/pl.png",
+    "sourcePage": "https://www.passportindex.org/?country=pl",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "AUT": {
+    "country": "Austria",
+    "file": "aut.webp",
+    "source": "https://img.passportindex.org/countries/at.png",
+    "sourcePage": "https://www.passportindex.org/?country=at",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "HRV": {
+    "country": "Croatia",
+    "file": "hrv.webp",
+    "source": "https://img.passportindex.org/countries/hr.png",
+    "sourcePage": "https://www.passportindex.org/?country=hr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "HUN": {
+    "country": "Hungary",
+    "file": "hun.webp",
+    "source": "https://img.passportindex.org/countries/hu.png",
+    "sourcePage": "https://www.passportindex.org/?country=hu",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SVK": {
+    "country": "Slovakia",
+    "file": "svk.webp",
+    "source": "https://img.passportindex.org/countries/sk.png",
+    "sourcePage": "https://www.passportindex.org/?country=sk",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SVN": {
+    "country": "Slovenia",
+    "file": "svn.webp",
+    "source": "https://img.passportindex.org/countries/si.png",
+    "sourcePage": "https://www.passportindex.org/?country=si",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ROU": {
+    "country": "Romania",
+    "file": "rou.webp",
+    "source": "https://img.passportindex.org/countries/ro.png",
+    "sourcePage": "https://www.passportindex.org/?country=ro",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BGR": {
+    "country": "Bulgaria",
+    "file": "bgr.webp",
+    "source": "https://img.passportindex.org/countries/bg.png",
+    "sourcePage": "https://www.passportindex.org/?country=bg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CZE": {
+    "country": "Czech Republic",
+    "file": "cze.webp",
+    "source": "https://img.passportindex.org/countries/cz.png",
+    "sourcePage": "https://www.passportindex.org/?country=cz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "EST": {
+    "country": "Estonia",
+    "file": "est.webp",
+    "source": "https://img.passportindex.org/countries/ee.png",
+    "sourcePage": "https://www.passportindex.org/?country=ee",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LVA": {
+    "country": "Latvia",
+    "file": "lva.webp",
+    "source": "https://img.passportindex.org/countries/lv.png",
+    "sourcePage": "https://www.passportindex.org/?country=lv",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NZL": {
+    "country": "New Zealand",
+    "file": "nzl.webp",
+    "source": "https://img.passportindex.org/countries/nz.png",
+    "sourcePage": "https://www.passportindex.org/?country=nz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LTU": {
+    "country": "Lithuania",
+    "file": "ltu.webp",
+    "source": "https://img.passportindex.org/countries/lt.png",
+    "sourcePage": "https://www.passportindex.org/?country=lt",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "AUS": {
+    "country": "Australia",
+    "file": "aus.webp",
+    "source": "https://img.passportindex.org/countries/au.png",
+    "sourcePage": "https://www.passportindex.org/?country=au",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CYP": {
+    "country": "Cyprus",
+    "file": "cyp.webp",
+    "source": "https://img.passportindex.org/countries/cy.png",
+    "sourcePage": "https://www.passportindex.org/?country=cy",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GBR": {
+    "country": "United Kingdom",
+    "file": "gbr.webp",
+    "source": "https://img.passportindex.org/countries/gb.png",
+    "sourcePage": "https://www.passportindex.org/?country=gb",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LIE": {
+    "country": "Liechtenstein",
+    "file": "lie.webp",
+    "source": "https://img.passportindex.org/countries/li.png",
+    "sourcePage": "https://www.passportindex.org/?country=li",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CAN": {
+    "country": "Canada",
+    "file": "can.webp",
+    "source": "https://img.passportindex.org/countries/ca.png",
+    "sourcePage": "https://www.passportindex.org/?country=ca",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ISL": {
+    "country": "Iceland",
+    "file": "isl.webp",
+    "source": "https://img.passportindex.org/countries/is.png",
+    "sourcePage": "https://www.passportindex.org/?country=is",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "HKG": {
+    "country": "Hong Kong",
+    "file": "hkg.webp",
+    "source": "https://img.passportindex.org/countries/hk.png",
+    "sourcePage": "https://www.passportindex.org/?country=hk",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "USA": {
+    "country": "United States of America",
+    "file": "usa.webp",
+    "source": "https://img.passportindex.org/countries/us.png",
+    "sourcePage": "https://www.passportindex.org/?country=us",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MCO": {
+    "country": "Monaco",
+    "file": "mco.webp",
+    "source": "https://img.passportindex.org/countries/mc.png",
+    "sourcePage": "https://www.passportindex.org/?country=mc",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BRA": {
+    "country": "Brazil",
+    "file": "bra.webp",
+    "source": "https://img.passportindex.org/countries/br.png",
+    "sourcePage": "https://www.passportindex.org/?country=br",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ARG": {
+    "country": "Argentina",
+    "file": "arg.webp",
+    "source": "https://img.passportindex.org/countries/ar.png",
+    "sourcePage": "https://www.passportindex.org/?country=ar",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CHL": {
+    "country": "Chile",
+    "file": "chl.webp",
+    "source": "https://img.passportindex.org/countries/cl.png",
+    "sourcePage": "https://www.passportindex.org/?country=cl",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "AND": {
+    "country": "Andorra",
+    "file": "and.webp",
+    "source": "https://img.passportindex.org/countries/ad.png",
+    "sourcePage": "https://www.passportindex.org/?country=ad",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SMR": {
+    "country": "San Marino",
+    "file": "smr.webp",
+    "source": "https://img.passportindex.org/countries/sm.png",
+    "sourcePage": "https://www.passportindex.org/?country=sm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BRB": {
+    "country": "Barbados",
+    "file": "brb.webp",
+    "source": "https://img.passportindex.org/countries/bb.png",
+    "sourcePage": "https://www.passportindex.org/?country=bb",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ISR": {
+    "country": "Israel",
+    "file": "isr.webp",
+    "source": "https://img.passportindex.org/countries/il.png",
+    "sourcePage": "https://www.passportindex.org/?country=il",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BRN": {
+    "country": "Brunei Darussalam",
+    "file": "brn.webp",
+    "source": "https://img.passportindex.org/countries/bn.png",
+    "sourcePage": "https://www.passportindex.org/?country=bn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BHS": {
+    "country": "Bahamas",
+    "file": "bhs.webp",
+    "source": "https://img.passportindex.org/countries/bs.png",
+    "sourcePage": "https://www.passportindex.org/?country=bs",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "URY": {
+    "country": "Uruguay",
+    "file": "ury.webp",
+    "source": "https://img.passportindex.org/countries/uy.png",
+    "sourcePage": "https://www.passportindex.org/?country=uy",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KNA": {
+    "country": "Saint Kitts and Nevis",
+    "file": "kna.webp",
+    "source": "https://img.passportindex.org/countries/kn.png",
+    "sourcePage": "https://www.passportindex.org/?country=kn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MEX": {
+    "country": "Mexico",
+    "file": "mex.webp",
+    "source": "https://img.passportindex.org/countries/mx.png",
+    "sourcePage": "https://www.passportindex.org/?country=mx",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "VCT": {
+    "country": "Saint Vincent and the Grenadines",
+    "file": "vct.webp",
+    "source": "https://img.passportindex.org/countries/vc.png",
+    "sourcePage": "https://www.passportindex.org/?country=vc",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "VAT": {
+    "country": "Holy See (Vatican City State)",
+    "file": "vat.webp",
+    "source": "https://img.passportindex.org/countries/va.png",
+    "sourcePage": "https://www.passportindex.org/?country=va",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SYC": {
+    "country": "Seychelles",
+    "file": "syc.webp",
+    "source": "https://img.passportindex.org/countries/sc.png",
+    "sourcePage": "https://www.passportindex.org/?country=sc",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PER": {
+    "country": "Peru",
+    "file": "per.webp",
+    "source": "https://img.passportindex.org/countries/pe.png",
+    "sourcePage": "https://www.passportindex.org/?country=pe",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ATG": {
+    "country": "Antigua and Barbuda",
+    "file": "atg.webp",
+    "source": "https://img.passportindex.org/countries/ag.png",
+    "sourcePage": "https://www.passportindex.org/?country=ag",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "UKR": {
+    "country": "Ukraine",
+    "file": "ukr.webp",
+    "source": "https://img.passportindex.org/countries/ua.png",
+    "sourcePage": "https://www.passportindex.org/?country=ua",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MAC": {
+    "country": "Macao",
+    "file": "mac.webp",
+    "source": "https://img.passportindex.org/countries/mo.png",
+    "sourcePage": "https://www.passportindex.org/?country=mo",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GRD": {
+    "country": "Grenada",
+    "file": "grd.webp",
+    "source": "https://img.passportindex.org/countries/gd.png",
+    "sourcePage": "https://www.passportindex.org/?country=gd",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CRI": {
+    "country": "Costa Rica",
+    "file": "cri.webp",
+    "source": "https://img.passportindex.org/countries/cr.png",
+    "sourcePage": "https://www.passportindex.org/?country=cr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TTO": {
+    "country": "Trinidad and Tobago",
+    "file": "tto.webp",
+    "source": "https://img.passportindex.org/countries/tt.png",
+    "sourcePage": "https://www.passportindex.org/?country=tt",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MUS": {
+    "country": "Mauritius",
+    "file": "mus.webp",
+    "source": "https://img.passportindex.org/countries/mu.png",
+    "sourcePage": "https://www.passportindex.org/?country=mu",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PRY": {
+    "country": "Paraguay",
+    "file": "pry.webp",
+    "source": "https://img.passportindex.org/countries/py.png",
+    "sourcePage": "https://www.passportindex.org/?country=py",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PAN": {
+    "country": "Panama",
+    "file": "pan.webp",
+    "source": "https://img.passportindex.org/countries/pa.png",
+    "sourcePage": "https://www.passportindex.org/?country=pa",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LCA": {
+    "country": "Saint Lucia",
+    "file": "lca.webp",
+    "source": "https://img.passportindex.org/countries/lc.png",
+    "sourcePage": "https://www.passportindex.org/?country=lc",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "DMA": {
+    "country": "Dominica",
+    "file": "dma.webp",
+    "source": "https://img.passportindex.org/countries/dm.png",
+    "sourcePage": "https://www.passportindex.org/?country=dm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SRB": {
+    "country": "Serbia",
+    "file": "srb.webp",
+    "source": "https://img.passportindex.org/countries/rs.png",
+    "sourcePage": "https://www.passportindex.org/?country=rs",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SLB": {
+    "country": "Solomon Islands",
+    "file": "slb.webp",
+    "source": "https://img.passportindex.org/countries/sb.png",
+    "sourcePage": "https://www.passportindex.org/?country=sb",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GEO": {
+    "country": "Georgia",
+    "file": "geo.webp",
+    "source": "https://img.passportindex.org/countries/ge.png",
+    "sourcePage": "https://www.passportindex.org/?country=ge",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "COL": {
+    "country": "Colombia",
+    "file": "col.webp",
+    "source": "https://img.passportindex.org/countries/co.png",
+    "sourcePage": "https://www.passportindex.org/?country=co",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MNE": {
+    "country": "Montenegro",
+    "file": "mne.webp",
+    "source": "https://img.passportindex.org/countries/me.png",
+    "sourcePage": "https://www.passportindex.org/?country=me",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MKD": {
+    "country": "The Republic of North Macedonia",
+    "file": "mkd.webp",
+    "source": "https://img.passportindex.org/countries/mk.png",
+    "sourcePage": "https://www.passportindex.org/?country=mk",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SLV": {
+    "country": "El Salvador",
+    "file": "slv.webp",
+    "source": "https://img.passportindex.org/countries/sv.png",
+    "sourcePage": "https://www.passportindex.org/?country=sv",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "WSM": {
+    "country": "Samoa",
+    "file": "wsm.webp",
+    "source": "https://img.passportindex.org/countries/ws.png",
+    "sourcePage": "https://www.passportindex.org/?country=ws",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TUV": {
+    "country": "Tuvalu",
+    "file": "tuv.webp",
+    "source": "https://img.passportindex.org/countries/tv.png",
+    "sourcePage": "https://www.passportindex.org/?country=tv",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "RUS": {
+    "country": "Russian Federation",
+    "file": "rus.webp",
+    "source": "https://img.passportindex.org/countries/ru.png",
+    "sourcePage": "https://www.passportindex.org/?country=ru",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GTM": {
+    "country": "Guatemala",
+    "file": "gtm.webp",
+    "source": "https://img.passportindex.org/countries/gt.png",
+    "sourcePage": "https://www.passportindex.org/?country=gt",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "HND": {
+    "country": "Honduras",
+    "file": "hnd.webp",
+    "source": "https://img.passportindex.org/countries/hn.png",
+    "sourcePage": "https://www.passportindex.org/?country=hn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TWN": {
+    "country": "Taiwan, Province of China",
+    "file": "twn.webp",
+    "source": "https://img.passportindex.org/countries/tw.png",
+    "sourcePage": "https://www.passportindex.org/?country=tw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TON": {
+    "country": "Tonga",
+    "file": "ton.webp",
+    "source": "https://img.passportindex.org/countries/to.png",
+    "sourcePage": "https://www.passportindex.org/?country=to",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KIR": {
+    "country": "Kiribati",
+    "file": "kir.webp",
+    "source": "https://img.passportindex.org/countries/ki.png",
+    "sourcePage": "https://www.passportindex.org/?country=ki",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TUR": {
+    "country": "Türkiye",
+    "file": "tur.webp",
+    "source": "https://img.passportindex.org/countries/tr.png",
+    "sourcePage": "https://www.passportindex.org/?country=tr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BIH": {
+    "country": "Bosnia and Herzegovina",
+    "file": "bih.webp",
+    "source": "https://img.passportindex.org/countries/ba.png",
+    "sourcePage": "https://www.passportindex.org/?country=ba",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MHL": {
+    "country": "Marshall Islands",
+    "file": "mhl.webp",
+    "source": "https://img.passportindex.org/countries/mh.png",
+    "sourcePage": "https://www.passportindex.org/?country=mh",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NIC": {
+    "country": "Nicaragua",
+    "file": "nic.webp",
+    "source": "https://img.passportindex.org/countries/ni.png",
+    "sourcePage": "https://www.passportindex.org/?country=ni",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MDA": {
+    "country": "Moldova, Republic of",
+    "file": "mda.webp",
+    "source": "https://img.passportindex.org/countries/md.png",
+    "sourcePage": "https://www.passportindex.org/?country=md",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "VEN": {
+    "country": "Venezuela",
+    "file": "ven.webp",
+    "source": "https://img.passportindex.org/countries/ve.png",
+    "sourcePage": "https://www.passportindex.org/?country=ve",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ALB": {
+    "country": "Albania",
+    "file": "alb.webp",
+    "source": "https://img.passportindex.org/countries/al.png",
+    "sourcePage": "https://www.passportindex.org/?country=al",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "QAT": {
+    "country": "Qatar",
+    "file": "qat.webp",
+    "source": "https://img.passportindex.org/countries/qa.png",
+    "sourcePage": "https://www.passportindex.org/?country=qa",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PLW": {
+    "country": "Palau",
+    "file": "plw.webp",
+    "source": "https://img.passportindex.org/countries/pw.png",
+    "sourcePage": "https://www.passportindex.org/?country=pw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "FSM": {
+    "country": "Micronesia, Federated States of",
+    "file": "fsm.webp",
+    "source": "https://img.passportindex.org/countries/fm.png",
+    "sourcePage": "https://www.passportindex.org/?country=fm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KWT": {
+    "country": "Kuwait",
+    "file": "kwt.webp",
+    "source": "https://img.passportindex.org/countries/kw.png",
+    "sourcePage": "https://www.passportindex.org/?country=kw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ZAF": {
+    "country": "South Africa",
+    "file": "zaf.webp",
+    "source": "https://img.passportindex.org/countries/za.png",
+    "sourcePage": "https://www.passportindex.org/?country=za",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BLZ": {
+    "country": "Belize",
+    "file": "blz.webp",
+    "source": "https://img.passportindex.org/countries/bz.png",
+    "sourcePage": "https://www.passportindex.org/?country=bz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MDV": {
+    "country": "Maldives",
+    "file": "mdv.webp",
+    "source": "https://img.passportindex.org/countries/mv.png",
+    "sourcePage": "https://www.passportindex.org/?country=mv",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SAU": {
+    "country": "Saudi Arabia",
+    "file": "sau.webp",
+    "source": "https://img.passportindex.org/countries/sa.png",
+    "sourcePage": "https://www.passportindex.org/?country=sa",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BHR": {
+    "country": "Bahrain",
+    "file": "bhr.webp",
+    "source": "https://img.passportindex.org/countries/bh.png",
+    "sourcePage": "https://www.passportindex.org/?country=bh",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TLS": {
+    "country": "Timor-Leste",
+    "file": "tls.webp",
+    "source": "https://img.passportindex.org/countries/tl.png",
+    "sourcePage": "https://www.passportindex.org/?country=tl",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ECU": {
+    "country": "Ecuador",
+    "file": "ecu.webp",
+    "source": "https://img.passportindex.org/countries/ec.png",
+    "sourcePage": "https://www.passportindex.org/?country=ec",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "JAM": {
+    "country": "Jamaica",
+    "file": "jam.webp",
+    "source": "https://img.passportindex.org/countries/jm.png",
+    "sourcePage": "https://www.passportindex.org/?country=jm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GUY": {
+    "country": "Guyana",
+    "file": "guy.webp",
+    "source": "https://img.passportindex.org/countries/gy.png",
+    "sourcePage": "https://www.passportindex.org/?country=gy",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "OMN": {
+    "country": "Oman",
+    "file": "omn.webp",
+    "source": "https://img.passportindex.org/countries/om.png",
+    "sourcePage": "https://www.passportindex.org/?country=om",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "FJI": {
+    "country": "Fiji",
+    "file": "fji.webp",
+    "source": "https://img.passportindex.org/countries/fj.png",
+    "sourcePage": "https://www.passportindex.org/?country=fj",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BLR": {
+    "country": "Belarus",
+    "file": "blr.webp",
+    "source": "https://img.passportindex.org/countries/by.png",
+    "sourcePage": "https://www.passportindex.org/?country=by",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "XKX": {
+    "country": "Kosovo",
+    "file": "xkx.webp",
+    "source": "https://img.passportindex.org/countries/xk.png",
+    "sourcePage": "https://www.passportindex.org/?country=xk",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "VUT": {
+    "country": "Vanuatu",
+    "file": "vut.webp",
+    "source": "https://img.passportindex.org/countries/vu.png",
+    "sourcePage": "https://www.passportindex.org/?country=vu",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "THA": {
+    "country": "Thailand",
+    "file": "tha.webp",
+    "source": "https://img.passportindex.org/countries/th.png",
+    "sourcePage": "https://www.passportindex.org/?country=th",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KAZ": {
+    "country": "Kazakhstan",
+    "file": "kaz.webp",
+    "source": "https://img.passportindex.org/countries/kz.png",
+    "sourcePage": "https://www.passportindex.org/?country=kz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "IDN": {
+    "country": "Indonesia",
+    "file": "idn.webp",
+    "source": "https://img.passportindex.org/countries/id.png",
+    "sourcePage": "https://www.passportindex.org/?country=id",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CHN": {
+    "country": "People's Republic of China",
+    "file": "chn.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:People%27s_Republic_of_China_Passport_2012.svg",
+    "license": "Public domain",
+    "width": 960,
+    "height": 1344
+  },
+  "NRU": {
+    "country": "Nauru",
+    "file": "nru.webp",
+    "source": "https://img.passportindex.org/countries/nr.png",
+    "sourcePage": "https://www.passportindex.org/?country=nr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BWA": {
+    "country": "Botswana",
+    "file": "bwa.webp",
+    "source": "https://img.passportindex.org/countries/bw.png",
+    "sourcePage": "https://www.passportindex.org/?country=bw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PNG": {
+    "country": "Papua New Guinea",
+    "file": "png.webp",
+    "source": "https://img.passportindex.org/countries/pg.png",
+    "sourcePage": "https://www.passportindex.org/?country=pg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MAR": {
+    "country": "Morocco",
+    "file": "mar.webp",
+    "source": "https://img.passportindex.org/countries/ma.png",
+    "sourcePage": "https://www.passportindex.org/?country=ma",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "AZE": {
+    "country": "Azerbaijan",
+    "file": "aze.webp",
+    "source": "https://img.passportindex.org/countries/az.png",
+    "sourcePage": "https://www.passportindex.org/?country=az",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BOL": {
+    "country": "Bolivia",
+    "file": "bol.webp",
+    "source": "https://img.passportindex.org/countries/bo.png",
+    "sourcePage": "https://www.passportindex.org/?country=bo",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LSO": {
+    "country": "Lesotho",
+    "file": "lso.webp",
+    "source": "https://img.passportindex.org/countries/ls.png",
+    "sourcePage": "https://www.passportindex.org/?country=ls",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SUR": {
+    "country": "Suriname",
+    "file": "sur.webp",
+    "source": "https://img.passportindex.org/countries/sr.png",
+    "sourcePage": "https://www.passportindex.org/?country=sr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NAM": {
+    "country": "Namibia",
+    "file": "nam.webp",
+    "source": "https://img.passportindex.org/countries/na.png",
+    "sourcePage": "https://www.passportindex.org/?country=na",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SWZ": {
+    "country": "Eswatini",
+    "file": "swz.webp",
+    "source": "https://img.passportindex.org/countries/sz.png",
+    "sourcePage": "https://www.passportindex.org/?country=sz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MWI": {
+    "country": "Malawi",
+    "file": "mwi.webp",
+    "source": "https://img.passportindex.org/countries/mw.png",
+    "sourcePage": "https://www.passportindex.org/?country=mw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ARM": {
+    "country": "Armenia",
+    "file": "arm.webp",
+    "source": "https://img.passportindex.org/countries/am.png",
+    "sourcePage": "https://www.passportindex.org/?country=am",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "DOM": {
+    "country": "Dominican Republic",
+    "file": "dom.webp",
+    "source": "https://img.passportindex.org/countries/do.png",
+    "sourcePage": "https://www.passportindex.org/?country=do",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TZA": {
+    "country": "United Republic of Tanzania",
+    "file": "tza.webp",
+    "source": "https://img.passportindex.org/countries/tz.png",
+    "sourcePage": "https://www.passportindex.org/?country=tz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KEN": {
+    "country": "Kenya",
+    "file": "ken.webp",
+    "source": "https://img.passportindex.org/countries/ke.png",
+    "sourcePage": "https://www.passportindex.org/?country=ke",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GMB": {
+    "country": "Republic of The Gambia",
+    "file": "gmb.webp",
+    "source": "https://img.passportindex.org/countries/gm.png",
+    "sourcePage": "https://www.passportindex.org/?country=gm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TUN": {
+    "country": "Tunisia",
+    "file": "tun.webp",
+    "source": "https://img.passportindex.org/countries/tn.png",
+    "sourcePage": "https://www.passportindex.org/?country=tn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GHA": {
+    "country": "Ghana",
+    "file": "gha.webp",
+    "source": "https://img.passportindex.org/countries/gh.png",
+    "sourcePage": "https://www.passportindex.org/?country=gh",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CPV": {
+    "country": "Cape Verde",
+    "file": "cpv.webp",
+    "source": "https://img.passportindex.org/countries/cv.png",
+    "sourcePage": "https://www.passportindex.org/?country=cv",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MNG": {
+    "country": "Mongolia",
+    "file": "mng.webp",
+    "source": "https://img.passportindex.org/countries/mn.png",
+    "sourcePage": "https://www.passportindex.org/?country=mn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ZMB": {
+    "country": "Zambia",
+    "file": "zmb.webp",
+    "source": "https://img.passportindex.org/countries/zm.png",
+    "sourcePage": "https://www.passportindex.org/?country=zm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PHL": {
+    "country": "Philippines",
+    "file": "phl.webp",
+    "source": "https://img.passportindex.org/countries/ph.png",
+    "sourcePage": "https://www.passportindex.org/?country=ph",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "UGA": {
+    "country": "Uganda",
+    "file": "uga.webp",
+    "source": "https://img.passportindex.org/countries/ug.png",
+    "sourcePage": "https://www.passportindex.org/?country=ug",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "RWA": {
+    "country": "Rwanda",
+    "file": "rwa.webp",
+    "source": "https://img.passportindex.org/countries/rw.png",
+    "sourcePage": "https://www.passportindex.org/?country=rw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KGZ": {
+    "country": "Kyrgyzstan",
+    "file": "kgz.webp",
+    "source": "https://img.passportindex.org/countries/kg.png",
+    "sourcePage": "https://www.passportindex.org/?country=kg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "UZB": {
+    "country": "Uzbekistan",
+    "file": "uzb.webp",
+    "source": "https://img.passportindex.org/countries/uz.png",
+    "sourcePage": "https://www.passportindex.org/?country=uz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SLE": {
+    "country": "Sierra Leone",
+    "file": "sle.webp",
+    "source": "https://img.passportindex.org/countries/sl.png",
+    "sourcePage": "https://www.passportindex.org/?country=sl",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ZWE": {
+    "country": "Zimbabwe",
+    "file": "zwe.webp",
+    "source": "https://img.passportindex.org/countries/zw.png",
+    "sourcePage": "https://www.passportindex.org/?country=zw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BEN": {
+    "country": "Benin",
+    "file": "ben.webp",
+    "source": "https://img.passportindex.org/countries/bj.png",
+    "sourcePage": "https://www.passportindex.org/?country=bj",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "STP": {
+    "country": "Sao Tome and Principe",
+    "file": "stp.webp",
+    "source": "https://img.passportindex.org/countries/st.png",
+    "sourcePage": "https://www.passportindex.org/?country=st",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MDG": {
+    "country": "Madagascar",
+    "file": "mdg.webp",
+    "source": "https://img.passportindex.org/countries/mg.png",
+    "sourcePage": "https://www.passportindex.org/?country=mg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SEN": {
+    "country": "Senegal",
+    "file": "sen.webp",
+    "source": "https://img.passportindex.org/countries/sn.png",
+    "sourcePage": "https://www.passportindex.org/?country=sn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MOZ": {
+    "country": "Mozambique",
+    "file": "moz.webp",
+    "source": "https://img.passportindex.org/countries/mz.png",
+    "sourcePage": "https://www.passportindex.org/?country=mz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CUB": {
+    "country": "Cuba",
+    "file": "cub.webp",
+    "source": "https://img.passportindex.org/countries/cu.png",
+    "sourcePage": "https://www.passportindex.org/?country=cu",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GAB": {
+    "country": "Gabon",
+    "file": "gab.webp",
+    "source": "https://img.passportindex.org/countries/ga.png",
+    "sourcePage": "https://www.passportindex.org/?country=ga",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TGO": {
+    "country": "Togo",
+    "file": "tgo.webp",
+    "source": "https://img.passportindex.org/countries/tg.png",
+    "sourcePage": "https://www.passportindex.org/?country=tg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "IND": {
+    "country": "India",
+    "file": "ind.webp",
+    "source": "https://img.passportindex.org/countries/in.png",
+    "sourcePage": "https://www.passportindex.org/?country=in",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TJK": {
+    "country": "Tajikistan",
+    "file": "tjk.webp",
+    "source": "https://img.passportindex.org/countries/tj.png",
+    "sourcePage": "https://www.passportindex.org/?country=tj",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BFA": {
+    "country": "Burkina Faso",
+    "file": "bfa.webp",
+    "source": "https://img.passportindex.org/countries/bf.png",
+    "sourcePage": "https://www.passportindex.org/?country=bf",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GNQ": {
+    "country": "Equatorial Guinea",
+    "file": "gnq.webp",
+    "source": "https://img.passportindex.org/countries/gq.png",
+    "sourcePage": "https://www.passportindex.org/?country=gq",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "DZA": {
+    "country": "Algeria",
+    "file": "dza.webp",
+    "source": "https://img.passportindex.org/countries/dz.png",
+    "sourcePage": "https://www.passportindex.org/?country=dz",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NER": {
+    "country": "Niger",
+    "file": "ner.webp",
+    "source": "https://img.passportindex.org/countries/ne.png",
+    "sourcePage": "https://www.passportindex.org/?country=ne",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CIV": {
+    "country": "Cote d'Ivoire",
+    "file": "civ.webp",
+    "source": "https://img.passportindex.org/countries/ci.png",
+    "sourcePage": "https://www.passportindex.org/?country=ci",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GIN": {
+    "country": "Guinea",
+    "file": "gin.webp",
+    "source": "https://img.passportindex.org/countries/gn.png",
+    "sourcePage": "https://www.passportindex.org/?country=gn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MRT": {
+    "country": "Mauritania",
+    "file": "mrt.webp",
+    "source": "https://img.passportindex.org/countries/mr.png",
+    "sourcePage": "https://www.passportindex.org/?country=mr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "VNM": {
+    "country": "Vietnam",
+    "file": "vnm.webp",
+    "source": "https://img.passportindex.org/countries/vn.png",
+    "sourcePage": "https://www.passportindex.org/?country=vn",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "COM": {
+    "country": "Comoros",
+    "file": "com.webp",
+    "source": "https://img.passportindex.org/countries/km.png",
+    "sourcePage": "https://www.passportindex.org/?country=km",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MLI": {
+    "country": "Mali",
+    "file": "mli.webp",
+    "source": "https://img.passportindex.org/countries/ml.png",
+    "sourcePage": "https://www.passportindex.org/?country=ml",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TCD": {
+    "country": "Chad",
+    "file": "tcd.webp",
+    "source": "https://img.passportindex.org/countries/td.png",
+    "sourcePage": "https://www.passportindex.org/?country=td",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "KHM": {
+    "country": "Cambodia",
+    "file": "khm.webp",
+    "source": "https://img.passportindex.org/countries/kh.png",
+    "sourcePage": "https://www.passportindex.org/?country=kh",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "GNB": {
+    "country": "Guinea-Bissau",
+    "file": "gnb.webp",
+    "source": "https://img.passportindex.org/countries/gw.png",
+    "sourcePage": "https://www.passportindex.org/?country=gw",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "JOR": {
+    "country": "Jordan",
+    "file": "jor.webp",
+    "source": "https://img.passportindex.org/countries/jo.png",
+    "sourcePage": "https://www.passportindex.org/?country=jo",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BTN": {
+    "country": "Bhutan",
+    "file": "btn.webp",
+    "source": "https://img.passportindex.org/countries/bt.png",
+    "sourcePage": "https://www.passportindex.org/?country=bt",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CAF": {
+    "country": "Central African Republic",
+    "file": "caf.webp",
+    "source": "https://img.passportindex.org/countries/cf.png",
+    "sourcePage": "https://www.passportindex.org/?country=cf",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "EGY": {
+    "country": "Egypt",
+    "file": "egy.webp",
+    "source": "https://img.passportindex.org/countries/eg.png",
+    "sourcePage": "https://www.passportindex.org/?country=eg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LBR": {
+    "country": "Liberia",
+    "file": "lbr.webp",
+    "source": "https://img.passportindex.org/countries/lr.png",
+    "sourcePage": "https://www.passportindex.org/?country=lr",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "AGO": {
+    "country": "Angola",
+    "file": "ago.webp",
+    "source": "https://img.passportindex.org/countries/ao.png",
+    "sourcePage": "https://www.passportindex.org/?country=ao",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BDI": {
+    "country": "Burundi",
+    "file": "bdi.webp",
+    "source": "https://img.passportindex.org/countries/bi.png",
+    "sourcePage": "https://www.passportindex.org/?country=bi",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "CMR": {
+    "country": "Cameroon",
+    "file": "cmr.webp",
+    "source": "https://img.passportindex.org/countries/cm.png",
+    "sourcePage": "https://www.passportindex.org/?country=cm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "COG": {
+    "country": "Republic of the Congo",
+    "file": "cog.webp",
+    "source": "https://img.passportindex.org/countries/cg.png",
+    "sourcePage": "https://www.passportindex.org/?country=cg",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "TKM": {
+    "country": "Turkmenistan",
+    "file": "tkm.webp",
+    "source": "https://img.passportindex.org/countries/tm.png",
+    "sourcePage": "https://www.passportindex.org/?country=tm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LAO": {
+    "country": "Lao People's Democratic Republic",
+    "file": "lao.webp",
+    "source": "https://img.passportindex.org/countries/la.png",
+    "sourcePage": "https://www.passportindex.org/?country=la",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "DJI": {
+    "country": "Djibouti",
+    "file": "dji.webp",
+    "source": "https://img.passportindex.org/countries/dj.png",
+    "sourcePage": "https://www.passportindex.org/?country=dj",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "HTI": {
+    "country": "Haiti",
+    "file": "hti.webp",
+    "source": "https://img.passportindex.org/countries/ht.png",
+    "sourcePage": "https://www.passportindex.org/?country=ht",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LBN": {
+    "country": "Lebanon",
+    "file": "lbn.webp",
+    "source": "https://img.passportindex.org/countries/lb.png",
+    "sourcePage": "https://www.passportindex.org/?country=lb",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ETH": {
+    "country": "Ethiopia",
+    "file": "eth.webp",
+    "source": "https://img.passportindex.org/countries/et.png",
+    "sourcePage": "https://www.passportindex.org/?country=et",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NGA": {
+    "country": "Nigeria",
+    "file": "nga.webp",
+    "source": "https://img.passportindex.org/countries/ng.png",
+    "sourcePage": "https://www.passportindex.org/?country=ng",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SSD": {
+    "country": "South Sudan",
+    "file": "ssd.webp",
+    "source": "https://img.passportindex.org/countries/ss.png",
+    "sourcePage": "https://www.passportindex.org/?country=ss",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "COD": {
+    "country": "Democratic Republic of the Congo",
+    "file": "cod.webp",
+    "source": "https://img.passportindex.org/countries/cd.png",
+    "sourcePage": "https://www.passportindex.org/?country=cd",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "MMR": {
+    "country": "Myanmar",
+    "file": "mmr.webp",
+    "source": "https://img.passportindex.org/countries/mm.png",
+    "sourcePage": "https://www.passportindex.org/?country=mm",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LBY": {
+    "country": "Libya",
+    "file": "lby.webp",
+    "source": "https://img.passportindex.org/countries/ly.png",
+    "sourcePage": "https://www.passportindex.org/?country=ly",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "LKA": {
+    "country": "Sri Lanka",
+    "file": "lka.webp",
+    "source": "https://img.passportindex.org/countries/lk.png",
+    "sourcePage": "https://www.passportindex.org/?country=lk",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "IRN": {
+    "country": "Islamic Republic of Iran",
+    "file": "irn.webp",
+    "source": "https://img.passportindex.org/countries/ir.png",
+    "sourcePage": "https://www.passportindex.org/?country=ir",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SDN": {
+    "country": "Sudan",
+    "file": "sdn.webp",
+    "source": "https://img.passportindex.org/countries/sd.png",
+    "sourcePage": "https://www.passportindex.org/?country=sd",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PRK": {
+    "country": "North Korea",
+    "file": "prk.webp",
+    "source": "https://img.passportindex.org/countries/kp.png",
+    "sourcePage": "https://www.passportindex.org/?country=kp",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "ERI": {
+    "country": "Eritrea",
+    "file": "eri.webp",
+    "source": "https://img.passportindex.org/countries/er.png",
+    "sourcePage": "https://www.passportindex.org/?country=er",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "NPL": {
+    "country": "Nepal",
+    "file": "npl.webp",
+    "source": "https://img.passportindex.org/countries/np.png",
+    "sourcePage": "https://www.passportindex.org/?country=np",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PSE": {
+    "country": "State of Palestine",
+    "file": "pse.webp",
+    "source": "https://img.passportindex.org/countries/ps.png",
+    "sourcePage": "https://www.passportindex.org/?country=ps",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "BGD": {
+    "country": "Bangladesh",
+    "file": "bgd.webp",
+    "source": "https://img.passportindex.org/countries/bd.png",
+    "sourcePage": "https://www.passportindex.org/?country=bd",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "YEM": {
+    "country": "Yemen",
+    "file": "yem.webp",
+    "source": "https://img.passportindex.org/countries/ye.png",
+    "sourcePage": "https://www.passportindex.org/?country=ye",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SOM": {
+    "country": "Somalia",
+    "file": "som.webp",
+    "source": "https://img.passportindex.org/countries/so.png",
+    "sourcePage": "https://www.passportindex.org/?country=so",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "PAK": {
+    "country": "Pakistan",
+    "file": "pak.webp",
+    "source": "https://img.passportindex.org/countries/pk.png",
+    "sourcePage": "https://www.passportindex.org/?country=pk",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "IRQ": {
+    "country": "Iraq",
+    "file": "irq.webp",
+    "source": "https://img.passportindex.org/countries/iq.png",
+    "sourcePage": "https://www.passportindex.org/?country=iq",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "SYR": {
+    "country": "Syrian Arab Republic",
+    "file": "syr.webp",
+    "source": "https://img.passportindex.org/countries/sy.png",
+    "sourcePage": "https://www.passportindex.org/?country=sy",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  },
+  "AFG": {
+    "country": "Afghanistan",
+    "file": "afg.webp",
+    "source": "https://img.passportindex.org/countries/af.png",
+    "sourcePage": "https://www.passportindex.org/?country=af",
+    "license": "Passport Index source terms apply",
+    "width": 602,
+    "height": 860
+  }
+}

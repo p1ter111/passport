@@ -1,0 +1,10 @@
+{
+  "sourceName": "imorte/passport-index-data",
+  "sourceUrl": "https://github.com/imorte/passport-index-data",
+  "snapshotDate": "2026-02-17",
+  "coverage": "199 passports and 199 destinations",
+  "recommendedRefreshDays": 3,
+  "staleAfterDays": 7,
+  "methodology": "The matrix classifies visa-free travel, visa on arrival, ETA, e-visa, visa required, and no admission.",
+  "notice": "This is a reference snapshot. Visa and entry policies can change without notice; official destination sources are authoritative."
+}

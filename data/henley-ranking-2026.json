@@ -1,0 +1,1205 @@
+{
+  "source": "Henley Passport Index",
+  "sourceUrl": "https://www.henleyglobal.com/passport-index/ranking",
+  "apiUrl": "https://api.henleypassportindex.com/api/v3/countries",
+  "year": 2026,
+  "edition": "July 2026",
+  "retrievedAt": "2026-08-10T05:35:55.693Z",
+  "methodology": "Number of destinations accessible without obtaining a prior visa; visa-on-arrival and ETA access are included.",
+  "countries": [
+    {
+      "iso2": "AD",
+      "name": "Andorra",
+      "rank": 15,
+      "access": 170
+    },
+    {
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "rank": 2,
+      "access": 188
+    },
+    {
+      "iso2": "AF",
+      "name": "Afghanistan",
+      "rank": 104,
+      "access": 22
+    },
+    {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "rank": 24,
+      "access": 154
+    },
+    {
+      "iso2": "AL",
+      "name": "Albania",
+      "rank": 43,
+      "access": 122
+    },
+    {
+      "iso2": "AM",
+      "name": "Armenia",
+      "rank": 73,
+      "access": 64
+    },
+    {
+      "iso2": "AO",
+      "name": "Angola",
+      "rank": 86,
+      "access": 49
+    },
+    {
+      "iso2": "AR",
+      "name": "Argentina",
+      "rank": 16,
+      "access": 169
+    },
+    {
+      "iso2": "AT",
+      "name": "Austria",
+      "rank": 5,
+      "access": 185
+    },
+    {
+      "iso2": "AU",
+      "name": "Australia",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "rank": 70,
+      "access": 67
+    },
+    {
+      "iso2": "BA",
+      "name": "Bosnia and Herzegovina",
+      "rank": 43,
+      "access": 122
+    },
+    {
+      "iso2": "BB",
+      "name": "Barbados",
+      "rank": 19,
+      "access": 163
+    },
+    {
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "rank": 97,
+      "access": 35
+    },
+    {
+      "iso2": "BE",
+      "name": "Belgium",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "BF",
+      "name": "Burkina Faso",
+      "rank": 79,
+      "access": 57
+    },
+    {
+      "iso2": "BG",
+      "name": "Bulgaria",
+      "rank": 11,
+      "access": 178
+    },
+    {
+      "iso2": "BH",
+      "name": "Bahrain",
+      "rank": 55,
+      "access": 88
+    },
+    {
+      "iso2": "BI",
+      "name": "Burundi",
+      "rank": 87,
+      "access": 48
+    },
+    {
+      "iso2": "BJ",
+      "name": "Benin",
+      "rank": 72,
+      "access": 65
+    },
+    {
+      "iso2": "BN",
+      "name": "Brunei",
+      "rank": 19,
+      "access": 163
+    },
+    {
+      "iso2": "BO",
+      "name": "Bolivia",
+      "rank": 63,
+      "access": 77
+    },
+    {
+      "iso2": "BR",
+      "name": "Brazil",
+      "rank": 16,
+      "access": 169
+    },
+    {
+      "iso2": "BS",
+      "name": "The Bahamas",
+      "rank": 20,
+      "access": 158
+    },
+    {
+      "iso2": "BT",
+      "name": "Bhutan",
+      "rank": 88,
+      "access": 47
+    },
+    {
+      "iso2": "BW",
+      "name": "Botswana",
+      "rank": 61,
+      "access": 81
+    },
+    {
+      "iso2": "BY",
+      "name": "Belarus",
+      "rank": 62,
+      "access": 78
+    },
+    {
+      "iso2": "BZ",
+      "name": "Belize",
+      "rank": 50,
+      "access": 100
+    },
+    {
+      "iso2": "CA",
+      "name": "Canada",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "CD",
+      "name": "Congo (Dem. Rep.)",
+      "rank": 90,
+      "access": 44
+    },
+    {
+      "iso2": "CF",
+      "name": "Central African Republic",
+      "rank": 87,
+      "access": 48
+    },
+    {
+      "iso2": "CG",
+      "name": "Congo (Rep.)",
+      "rank": 88,
+      "access": 47
+    },
+    {
+      "iso2": "CH",
+      "name": "Switzerland",
+      "rank": 5,
+      "access": 185
+    },
+    {
+      "iso2": "CI",
+      "name": "Côte d'Ivoire",
+      "rank": 80,
+      "access": 56
+    },
+    {
+      "iso2": "CL",
+      "name": "Chile",
+      "rank": 14,
+      "access": 174
+    },
+    {
+      "iso2": "CM",
+      "name": "Cameroon",
+      "rank": 87,
+      "access": 48
+    },
+    {
+      "iso2": "CN",
+      "name": "China",
+      "rank": 60,
+      "access": 83
+    },
+    {
+      "iso2": "CO",
+      "name": "Colombia",
+      "rank": 38,
+      "access": 130
+    },
+    {
+      "iso2": "CR",
+      "name": "Costa Rica",
+      "rank": 26,
+      "access": 148
+    },
+    {
+      "iso2": "CU",
+      "name": "Cuba",
+      "rank": 79,
+      "access": 57
+    },
+    {
+      "iso2": "CV",
+      "name": "Cape Verde Islands",
+      "rank": 73,
+      "access": 64
+    },
+    {
+      "iso2": "CY",
+      "name": "Cyprus",
+      "rank": 13,
+      "access": 175
+    },
+    {
+      "iso2": "CZ",
+      "name": "Czechia",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "DE",
+      "name": "Germany",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "DJ",
+      "name": "Djibouti",
+      "rank": 89,
+      "access": 45
+    },
+    {
+      "iso2": "DK",
+      "name": "Denmark",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "DM",
+      "name": "Dominica",
+      "rank": 29,
+      "access": 144
+    },
+    {
+      "iso2": "DO",
+      "name": "Dominican Republic",
+      "rank": 68,
+      "access": 70
+    },
+    {
+      "iso2": "DZ",
+      "name": "Algeria",
+      "rank": 81,
+      "access": 55
+    },
+    {
+      "iso2": "EC",
+      "name": "Ecuador",
+      "rank": 53,
+      "access": 92
+    },
+    {
+      "iso2": "EE",
+      "name": "Estonia",
+      "rank": 8,
+      "access": 182
+    },
+    {
+      "iso2": "EG",
+      "name": "Egypt",
+      "rank": 86,
+      "access": 49
+    },
+    {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "rank": 95,
+      "access": 38
+    },
+    {
+      "iso2": "ES",
+      "name": "Spain",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "ET",
+      "name": "Ethiopia",
+      "rank": 92,
+      "access": 42
+    },
+    {
+      "iso2": "FI",
+      "name": "Finland",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "FJ",
+      "name": "Fiji",
+      "rank": 56,
+      "access": 87
+    },
+    {
+      "iso2": "FM",
+      "name": "Micronesia",
+      "rank": 44,
+      "access": 121
+    },
+    {
+      "iso2": "FR",
+      "name": "France",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "GA",
+      "name": "Gabon",
+      "rank": 80,
+      "access": 56
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "rank": 6,
+      "access": 184
+    },
+    {
+      "iso2": "GD",
+      "name": "Grenada",
+      "rank": 26,
+      "access": 148
+    },
+    {
+      "iso2": "GE",
+      "name": "Georgia",
+      "rank": 44,
+      "access": 121
+    },
+    {
+      "iso2": "GH",
+      "name": "Ghana",
+      "rank": 70,
+      "access": 67
+    },
+    {
+      "iso2": "GM",
+      "name": "The Gambia",
+      "rank": 69,
+      "access": 68
+    },
+    {
+      "iso2": "GN",
+      "name": "Guinea",
+      "rank": 83,
+      "access": 53
+    },
+    {
+      "iso2": "GQ",
+      "name": "Equatorial Guinea",
+      "rank": 82,
+      "access": 54
+    },
+    {
+      "iso2": "GR",
+      "name": "Greece",
+      "rank": 5,
+      "access": 185
+    },
+    {
+      "iso2": "GT",
+      "name": "Guatemala",
+      "rank": 36,
+      "access": 132
+    },
+    {
+      "iso2": "GW",
+      "name": "Guinea-Bissau",
+      "rank": 85,
+      "access": 51
+    },
+    {
+      "iso2": "GY",
+      "name": "Guyana",
+      "rank": 55,
+      "access": 88
+    },
+    {
+      "iso2": "HK",
+      "name": "Hong Kong (SAR China)",
+      "rank": 14,
+      "access": 174
+    },
+    {
+      "iso2": "HN",
+      "name": "Honduras",
+      "rank": 39,
+      "access": 129
+    },
+    {
+      "iso2": "HR",
+      "name": "Croatia",
+      "rank": 8,
+      "access": 182
+    },
+    {
+      "iso2": "HT",
+      "name": "Haiti",
+      "rank": 87,
+      "access": 48
+    },
+    {
+      "iso2": "HU",
+      "name": "Hungary",
+      "rank": 6,
+      "access": 184
+    },
+    {
+      "iso2": "ID",
+      "name": "Indonesia",
+      "rank": 68,
+      "access": 70
+    },
+    {
+      "iso2": "IE",
+      "name": "Ireland",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "IL",
+      "name": "Israel",
+      "rank": 18,
+      "access": 166
+    },
+    {
+      "iso2": "IN",
+      "name": "India",
+      "rank": 81,
+      "access": 55
+    },
+    {
+      "iso2": "IQ",
+      "name": "Iraq",
+      "rank": 102,
+      "access": 28
+    },
+    {
+      "iso2": "IR",
+      "name": "Iran",
+      "rank": 96,
+      "access": 37
+    },
+    {
+      "iso2": "IS",
+      "name": "Iceland",
+      "rank": 10,
+      "access": 180
+    },
+    {
+      "iso2": "IT",
+      "name": "Italy",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "JM",
+      "name": "Jamaica",
+      "rank": 59,
+      "access": 84
+    },
+    {
+      "iso2": "JO",
+      "name": "Jordan",
+      "rank": 86,
+      "access": 49
+    },
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "rank": 2,
+      "access": 188
+    },
+    {
+      "iso2": "KE",
+      "name": "Kenya",
+      "rank": 68,
+      "access": 70
+    },
+    {
+      "iso2": "KG",
+      "name": "Kyrgyzstan",
+      "rank": 77,
+      "access": 59
+    },
+    {
+      "iso2": "KH",
+      "name": "Cambodia",
+      "rank": 88,
+      "access": 47
+    },
+    {
+      "iso2": "KI",
+      "name": "Kiribati",
+      "rank": 44,
+      "access": 121
+    },
+    {
+      "iso2": "KM",
+      "name": "Comoro Islands",
+      "rank": 85,
+      "access": 51
+    },
+    {
+      "iso2": "KN",
+      "name": "St. Kitts and Nevis",
+      "rank": 21,
+      "access": 157
+    },
+    {
+      "iso2": "KP",
+      "name": "North Korea",
+      "rank": 97,
+      "access": 35
+    },
+    {
+      "iso2": "KR",
+      "name": "South Korea",
+      "rank": 2,
+      "access": 188
+    },
+    {
+      "iso2": "KW",
+      "name": "Kuwait",
+      "rank": 51,
+      "access": 97
+    },
+    {
+      "iso2": "KZ",
+      "name": "Kazakhstan",
+      "rank": 63,
+      "access": 77
+    },
+    {
+      "iso2": "LA",
+      "name": "Laos",
+      "rank": 89,
+      "access": 45
+    },
+    {
+      "iso2": "LB",
+      "name": "Lebanon",
+      "rank": 93,
+      "access": 41
+    },
+    {
+      "iso2": "LC",
+      "name": "St. Lucia",
+      "rank": 30,
+      "access": 143
+    },
+    {
+      "iso2": "LI",
+      "name": "Liechtenstein",
+      "rank": 9,
+      "access": 181
+    },
+    {
+      "iso2": "LK",
+      "name": "Sri Lanka",
+      "rank": 94,
+      "access": 39
+    },
+    {
+      "iso2": "LR",
+      "name": "Liberia",
+      "rank": 86,
+      "access": 49
+    },
+    {
+      "iso2": "LS",
+      "name": "Lesotho",
+      "rank": 66,
+      "access": 73
+    },
+    {
+      "iso2": "LT",
+      "name": "Lithuania",
+      "rank": 9,
+      "access": 181
+    },
+    {
+      "iso2": "LU",
+      "name": "Luxembourg",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "LV",
+      "name": "Latvia",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "LY",
+      "name": "Libya",
+      "rank": 94,
+      "access": 39
+    },
+    {
+      "iso2": "MA",
+      "name": "Morocco",
+      "rank": 67,
+      "access": 71
+    },
+    {
+      "iso2": "MC",
+      "name": "Monaco",
+      "rank": 12,
+      "access": 177
+    },
+    {
+      "iso2": "MD",
+      "name": "Moldova",
+      "rank": 45,
+      "access": 120
+    },
+    {
+      "iso2": "ME",
+      "name": "Montenegro",
+      "rank": 41,
+      "access": 127
+    },
+    {
+      "iso2": "MG",
+      "name": "Madagascar",
+      "rank": 80,
+      "access": 56
+    },
+    {
+      "iso2": "MH",
+      "name": "Marshall Islands",
+      "rank": 40,
+      "access": 128
+    },
+    {
+      "iso2": "MK",
+      "name": "North Macedonia",
+      "rank": 41,
+      "access": 127
+    },
+    {
+      "iso2": "ML",
+      "name": "Mali",
+      "rank": 83,
+      "access": 53
+    },
+    {
+      "iso2": "MM",
+      "name": "Myanmar",
+      "rank": 91,
+      "access": 43
+    },
+    {
+      "iso2": "MN",
+      "name": "Mongolia",
+      "rank": 73,
+      "access": 64
+    },
+    {
+      "iso2": "MO",
+      "name": "Macao (SAR China)",
+      "rank": 31,
+      "access": 142
+    },
+    {
+      "iso2": "MR",
+      "name": "Mauritania",
+      "rank": 81,
+      "access": 55
+    },
+    {
+      "iso2": "MT",
+      "name": "Malta",
+      "rank": 5,
+      "access": 185
+    },
+    {
+      "iso2": "MU",
+      "name": "Mauritius",
+      "rank": 26,
+      "access": 148
+    },
+    {
+      "iso2": "MV",
+      "name": "Maldives",
+      "rank": 52,
+      "access": 93
+    },
+    {
+      "iso2": "MW",
+      "name": "Malawi",
+      "rank": 68,
+      "access": 70
+    },
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "rank": 22,
+      "access": 156
+    },
+    {
+      "iso2": "MY",
+      "name": "Malaysia",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "MZ",
+      "name": "Mozambique",
+      "rank": 76,
+      "access": 60
+    },
+    {
+      "iso2": "NA",
+      "name": "Namibia",
+      "rank": 65,
+      "access": 74
+    },
+    {
+      "iso2": "NE",
+      "name": "Niger",
+      "rank": 82,
+      "access": 54
+    },
+    {
+      "iso2": "NG",
+      "name": "Nigeria",
+      "rank": 90,
+      "access": 44
+    },
+    {
+      "iso2": "NI",
+      "name": "Nicaragua",
+      "rank": 42,
+      "access": 124
+    },
+    {
+      "iso2": "NL",
+      "name": "Netherlands",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "NO",
+      "name": "Norway",
+      "rank": 4,
+      "access": 186
+    },
+    {
+      "iso2": "NP",
+      "name": "Nepal",
+      "rank": 98,
+      "access": 34
+    },
+    {
+      "iso2": "NR",
+      "name": "Nauru",
+      "rank": 59,
+      "access": 84
+    },
+    {
+      "iso2": "NZ",
+      "name": "New Zealand",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "OM",
+      "name": "Oman",
+      "rank": 58,
+      "access": 85
+    },
+    {
+      "iso2": "PA",
+      "name": "Panama",
+      "rank": 27,
+      "access": 147
+    },
+    {
+      "iso2": "PE",
+      "name": "Peru",
+      "rank": 32,
+      "access": 141
+    },
+    {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "rank": 59,
+      "access": 84
+    },
+    {
+      "iso2": "PH",
+      "name": "Philippines",
+      "rank": 72,
+      "access": 65
+    },
+    {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "rank": 101,
+      "access": 29
+    },
+    {
+      "iso2": "PL",
+      "name": "Poland",
+      "rank": 6,
+      "access": 184
+    },
+    {
+      "iso2": "PS",
+      "name": "Palestinian Territory",
+      "rank": 96,
+      "access": 37
+    },
+    {
+      "iso2": "PT",
+      "name": "Portugal",
+      "rank": 5,
+      "access": 185
+    },
+    {
+      "iso2": "PW",
+      "name": "Palau Islands",
+      "rank": 45,
+      "access": 120
+    },
+    {
+      "iso2": "PY",
+      "name": "Paraguay",
+      "rank": 28,
+      "access": 145
+    },
+    {
+      "iso2": "QA",
+      "name": "Qatar",
+      "rank": 48,
+      "access": 112
+    },
+    {
+      "iso2": "RO",
+      "name": "Romania",
+      "rank": 11,
+      "access": 178
+    },
+    {
+      "iso2": "RS",
+      "name": "Serbia",
+      "rank": 33,
+      "access": 135
+    },
+    {
+      "iso2": "RU",
+      "name": "Russian Federation",
+      "rank": 47,
+      "access": 114
+    },
+    {
+      "iso2": "RW",
+      "name": "Rwanda",
+      "rank": 69,
+      "access": 68
+    },
+    {
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "rank": 54,
+      "access": 91
+    },
+    {
+      "iso2": "SB",
+      "name": "Solomon Islands",
+      "rank": 35,
+      "access": 133
+    },
+    {
+      "iso2": "SC",
+      "name": "Seychelles",
+      "rank": 23,
+      "access": 155
+    },
+    {
+      "iso2": "SD",
+      "name": "Sudan",
+      "rank": 93,
+      "access": 41
+    },
+    {
+      "iso2": "SE",
+      "name": "Sweden",
+      "rank": 3,
+      "access": 187
+    },
+    {
+      "iso2": "SG",
+      "name": "Singapore",
+      "rank": 1,
+      "access": 192
+    },
+    {
+      "iso2": "SI",
+      "name": "Slovenia",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "SK",
+      "name": "Slovakia",
+      "rank": 7,
+      "access": 183
+    },
+    {
+      "iso2": "SL",
+      "name": "Sierra Leone",
+      "rank": 74,
+      "access": 63
+    },
+    {
+      "iso2": "SM",
+      "name": "San Marino",
+      "rank": 17,
+      "access": 167
+    },
+    {
+      "iso2": "SN",
+      "name": "Senegal",
+      "rank": 80,
+      "access": 56
+    },
+    {
+      "iso2": "SO",
+      "name": "Somalia",
+      "rank": 99,
+      "access": 32
+    },
+    {
+      "iso2": "SR",
+      "name": "Suriname",
+      "rank": 64,
+      "access": 75
+    },
+    {
+      "iso2": "SS",
+      "name": "South Sudan",
+      "rank": 93,
+      "access": 41
+    },
+    {
+      "iso2": "ST",
+      "name": "São Tomé and Príncipe",
+      "rank": 77,
+      "access": 59
+    },
+    {
+      "iso2": "SV",
+      "name": "El Salvador",
+      "rank": 37,
+      "access": 131
+    },
+    {
+      "iso2": "SY",
+      "name": "Syria",
+      "rank": 103,
+      "access": 25
+    },
+    {
+      "iso2": "SZ",
+      "name": "eSwatini",
+      "rank": 67,
+      "access": 71
+    },
+    {
+      "iso2": "TD",
+      "name": "Chad",
+      "rank": 85,
+      "access": 51
+    },
+    {
+      "iso2": "TG",
+      "name": "Togo",
+      "rank": 79,
+      "access": 57
+    },
+    {
+      "iso2": "TH",
+      "name": "Thailand",
+      "rank": 63,
+      "access": 77
+    },
+    {
+      "iso2": "TJ",
+      "name": "Tajikistan",
+      "rank": 84,
+      "access": 52
+    },
+    {
+      "iso2": "TL",
+      "name": "Timor-Leste",
+      "rank": 52,
+      "access": 93
+    },
+    {
+      "iso2": "TM",
+      "name": "Turkmenistan",
+      "rank": 90,
+      "access": 44
+    },
+    {
+      "iso2": "TN",
+      "name": "Tunisia",
+      "rank": 71,
+      "access": 66
+    },
+    {
+      "iso2": "TO",
+      "name": "Tonga",
+      "rank": 41,
+      "access": 127
+    },
+    {
+      "iso2": "TR",
+      "name": "Türkiye",
+      "rank": 48,
+      "access": 112
+    },
+    {
+      "iso2": "TT",
+      "name": "Trinidad and Tobago",
+      "rank": 29,
+      "access": 144
+    },
+    {
+      "iso2": "TV",
+      "name": "Tuvalu",
+      "rank": 42,
+      "access": 124
+    },
+    {
+      "iso2": "TW",
+      "name": "Taiwan (Chinese Taipei)",
+      "rank": 34,
+      "access": 134
+    },
+    {
+      "iso2": "TZ",
+      "name": "Tanzania",
+      "rank": 69,
+      "access": 68
+    },
+    {
+      "iso2": "UA",
+      "name": "Ukraine",
+      "rank": 31,
+      "access": 142
+    },
+    {
+      "iso2": "UG",
+      "name": "Uganda",
+      "rank": 72,
+      "access": 65
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "rank": 10,
+      "access": 180
+    },
+    {
+      "iso2": "UY",
+      "name": "Uruguay",
+      "rank": 22,
+      "access": 156
+    },
+    {
+      "iso2": "UZ",
+      "name": "Uzbekistan",
+      "rank": 78,
+      "access": 58
+    },
+    {
+      "iso2": "VA",
+      "name": "Vatican City",
+      "rank": 25,
+      "access": 152
+    },
+    {
+      "iso2": "VC",
+      "name": "St. Vincent and the Grenadines",
+      "rank": 21,
+      "access": 157
+    },
+    {
+      "iso2": "VE",
+      "name": "Venezuela",
+      "rank": 46,
+      "access": 116
+    },
+    {
+      "iso2": "VN",
+      "name": "Vietnam",
+      "rank": 87,
+      "access": 48
+    },
+    {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "rank": 57,
+      "access": 86
+    },
+    {
+      "iso2": "WS",
+      "name": "Samoa",
+      "rank": 40,
+      "access": 128
+    },
+    {
+      "iso2": "XK",
+      "name": "Kosovo",
+      "rank": 60,
+      "access": 83
+    },
+    {
+      "iso2": "YE",
+      "name": "Yemen",
+      "rank": 100,
+      "access": 30
+    },
+    {
+      "iso2": "ZA",
+      "name": "South Africa",
+      "rank": 49,
+      "access": 101
+    },
+    {
+      "iso2": "ZM",
+      "name": "Zambia",
+      "rank": 73,
+      "access": 64
+    },
+    {
+      "iso2": "ZW",
+      "name": "Zimbabwe",
+      "rank": 75,
+      "access": 61
+    }
+  ]
+}

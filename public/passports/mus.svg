@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 428" role="img" aria-labelledby="title desc">
+  <title id="title">毛里求斯护照封面示意</title>
+  <desc id="desc">Passport Atlas 为 Mauritius 创建的非官方护照封面视觉。</desc>
+  <defs>
+    <pattern id="texture" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 12 12 0M-3 3 3-3M9 15l6-6" stroke="#fff" stroke-opacity=".025" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="4" y="4" width="292" height="420" rx="14" fill="#2B4A3C"/>
+  <rect x="4" y="4" width="292" height="420" rx="14" fill="url(#texture)"/>
+  <path d="M17 16v396" stroke="#fff" stroke-opacity=".09" stroke-width="3"/>
+  <path d="M281 20v388" stroke="#000" stroke-opacity=".12"/>
+  <text x="150" y="40" text-anchor="middle" fill="#d7b65e" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">MAURICE</text>
+  <text x="150" y="58" text-anchor="middle" fill="#d7b65e" fill-opacity=".86" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">MAURITIUS</text>
+  <g><path fill="none" stroke="#d7b65e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M150 141c-15 0-27 8-27 8v35c0 23 27 37 27 37s27-14 27-37v-35s-12-8-27-8Z"/><path fill="none" stroke="#d7b65e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M123 158c-27-20-43-15-57-4 18 4 28 13 37 27-12-2-22 0-31 7 22 3 34 11 47 27M177 158c27-20 43-15 57-4-18 4-28 13-37 27 12-2 22 0 31 7-22 3-34 11-47 27"/><circle cx="150" cy="169" r="6" fill="#d7b65e"/></g>
+  <text x="150" y="274" text-anchor="middle" fill="#d7b65e" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="800">MU</text>
+  <path d="M115 294h70" stroke="#d7b65e" stroke-opacity=".7"/>
+  <text x="150" y="330" text-anchor="middle" fill="#d7b65e" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">PASSPORT</text>
+  <text x="150" y="350" text-anchor="middle" fill="#d7b65e" fill-opacity=".8" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="600">PASSPORT</text>
+  <g transform="translate(128 373)" fill="none" stroke="#d7b65e" stroke-width="2">
+    <rect width="44" height="28" rx="4"/>
+    <circle cx="22" cy="14" r="8"/><path d="M14 14h16M22 6c3 3 4 5 4 8s-1 5-4 8c-3-3-4-5-4-8s1-5 4-8Z"/>
+  </g>
+  <text x="278" y="404" text-anchor="end" fill="#d7b65e" fill-opacity=".65" font-family="Inter,Arial,sans-serif" font-size="9">MUS</text>
+</svg>

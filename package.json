@@ -1,0 +1,46 @@
+{
+  "name": "passport-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run covers:validate",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "data:refresh": "node scripts/generate-passport-data.mjs",
+    "rankings:refresh": "node scripts/refresh-henley-ranking.mjs && node scripts/generate-passport-data.mjs",
+    "covers:refresh:hq": "node scripts/import-high-resolution-passport-covers.mjs",
+    "covers:validate": "node scripts/validate-passport-covers.mjs",
+    "covers:refresh:fallback": "node scripts/import-real-passport-covers.mjs",
+    "covers:import-thumbnails": "node scripts/import-passport-thumbnail-bundle.mjs",
+    "i18n:generate": "node scripts/generate-ui-translations.mjs",
+    "i18n:countries": "node scripts/generate-country-names.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-globe.gl": "latest",
+    "react-simple-maps": "latest",
+    "three": "latest",
+    "topojson-client": "latest",
+    "world-atlas": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-simple-maps": "latest",
+    "@types/three": "latest",
+    "@types/topojson-client": "latest",
+    "cldr-localenames-full": "^48.2.0",
+    "countries-list": "latest",
+    "i18n-iso-countries": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "6.0.3"
+  }
+}
