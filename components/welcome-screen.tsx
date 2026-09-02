@@ -3,7 +3,7 @@
 import { languages } from "countries-list";
 import countriesData from "@/data/countries.json";
 import translationData from "@/data/ui-translations.json";
-import { getCountryName, getLanguageFallbackCode, toTraditionalDeep } from "@/lib/i18n";
+import { formatCopy, getCountryName, getLanguageFallbackCode, toTraditionalDeep } from "@/lib/i18n";
 import type { CountryProfile } from "@/types/passport";
 import {
   ArrowRight,
@@ -17,6 +17,7 @@ import {
   Route,
   Search,
   ShieldCheck,
+  X,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { forwardRef, type ReactNode, useEffect, useMemo, useRef, useState } from "react";
@@ -420,6 +421,157 @@ const languageOptions = [
 ]
   .sort((left, right) => left.name < right.name ? -1 : left.name > right.name ? 1 : 0);
 
+type PassportLanguagePromptCopy = {
+  title: string;
+  description: string;
+  autoSelect: string;
+  keepCurrent: string;
+  close: string;
+};
+
+type PassportLanguagePrompt = {
+  country: CountryProfile;
+  languageCode: string;
+};
+
+const traditionalPassportLanguagePromptCopy = toTraditionalDeep({
+  title: "是否根據護照自動選擇語言？",
+  description: "根據你選擇的 {country} 護照，我們推薦使用 {language}。",
+  autoSelect: "使用推薦語言",
+  keepCurrent: "保持目前語言",
+  close: "關閉",
+});
+
+const passportLanguagePromptCopyByLanguage: Record<string, PassportLanguagePromptCopy> = {
+  en: {
+    title: "Choose a language automatically?",
+    description: "Based on your {country} passport, we recommend {language}.",
+    autoSelect: "Use recommended language",
+    keepCurrent: "Keep current language",
+    close: "Close",
+  },
+  zh: {
+    title: "是否根据护照自动选择语言？",
+    description: "根据你选择的 {country} 护照，我们推荐使用 {language}。",
+    autoSelect: "使用推荐语言",
+    keepCurrent: "保持当前语言",
+    close: "关闭",
+  },
+  "zh-TW": traditionalPassportLanguagePromptCopy,
+  es: {
+    title: "¿Elegir el idioma automáticamente?",
+    description: "Según tu pasaporte de {country}, recomendamos {language}.",
+    autoSelect: "Usar idioma recomendado",
+    keepCurrent: "Mantener idioma actual",
+    close: "Cerrar",
+  },
+  fr: {
+    title: "Choisir automatiquement la langue ?",
+    description: "Pour votre passeport de {country}, nous recommandons {language}.",
+    autoSelect: "Utiliser la langue recommandée",
+    keepCurrent: "Garder la langue actuelle",
+    close: "Fermer",
+  },
+  de: {
+    title: "Sprache automatisch auswählen?",
+    description: "Für deinen Reisepass aus {country} empfehlen wir {language}.",
+    autoSelect: "Empfohlene Sprache verwenden",
+    keepCurrent: "Aktuelle Sprache behalten",
+    close: "Schließen",
+  },
+  ja: {
+    title: "パスポートに合わせて言語を選択しますか？",
+    description: "{country}のパスポートには{language}をおすすめします。",
+    autoSelect: "おすすめの言語を使う",
+    keepCurrent: "現在の言語を使う",
+    close: "閉じる",
+  },
+  ko: {
+    title: "여권에 맞춰 언어를 자동으로 선택할까요?",
+    description: "{country} 여권에는 {language}를 추천합니다.",
+    autoSelect: "추천 언어 사용",
+    keepCurrent: "현재 언어 유지",
+    close: "닫기",
+  },
+  ar: {
+    title: "اختيار اللغة تلقائياً حسب جواز السفر؟",
+    description: "بناءً على جواز سفرك من {country}، نوصي باستخدام {language}.",
+    autoSelect: "استخدام اللغة المقترحة",
+    keepCurrent: "الاحتفاظ باللغة الحالية",
+    close: "إغلاق",
+  },
+  ru: {
+    title: "Выбрать язык автоматически по паспорту?",
+    description: "Для паспорта страны {country} мы рекомендуем {language}.",
+    autoSelect: "Использовать рекомендуемый язык",
+    keepCurrent: "Оставить текущий язык",
+    close: "Закрыть",
+  },
+  pt: {
+    title: "Escolher o idioma automaticamente?",
+    description: "Com um passaporte de {country}, recomendamos {language}.",
+    autoSelect: "Usar idioma recomendado",
+    keepCurrent: "Manter idioma atual",
+    close: "Fechar",
+  },
+  tr: {
+    title: "Dil pasaporta göre otomatik seçilsin mi?",
+    description: "{country} pasaportuna göre {language} dilini öneriyoruz.",
+    autoSelect: "Önerilen dili kullan",
+    keepCurrent: "Mevcut dili koru",
+    close: "Kapat",
+  },
+  hi: {
+    title: "पासपोर्ट के अनुसार भाषा अपने आप चुनें?",
+    description: "{country} के पासपोर्ट के आधार पर हम {language} की सलाह देते हैं।",
+    autoSelect: "सुझाई गई भाषा चुनें",
+    keepCurrent: "वर्तमान भाषा रखें",
+    close: "बंद करें",
+  },
+};
+
+// Primary/official languages are used as a helpful default for onboarding.
+// Countries with multiple official languages use the most widely used travel language.
+const passportLanguageCodeByIso3: Record<string, string> = {
+  SGP: "en", JPN: "ja", KOR: "ko", ARE: "ar", SWE: "sv", BEL: "nl", DNK: "da", FIN: "fi",
+  FRA: "fr", DEU: "de", IRL: "en", ITA: "it", LUX: "fr", NLD: "nl", NOR: "no", ESP: "es",
+  AUT: "de", GRC: "el", MLT: "mt", PRT: "pt", CHE: "de", HUN: "hu", POL: "pl", GBR: "en",
+  AUS: "en", CAN: "en", CZE: "cs", LVA: "lv", MYS: "ms", NZL: "en", SVK: "sk", SVN: "sl",
+  HRV: "hr", EST: "et", LIE: "de", LTU: "lt", ISL: "is", USA: "en", BGR: "bg", ROU: "ro",
+  MCO: "fr", CYP: "el", CHL: "es", HKG: "zh", AND: "ca", ARG: "es", BRA: "pt", SMR: "it",
+  ISR: "he", BRB: "en", BRN: "ms", BHS: "en", KNA: "en", VCT: "en", MEX: "es", URY: "es",
+  SYC: "en", ATG: "en", VAT: "it", CRI: "es", GRD: "en", MUS: "en", PAN: "es", PRY: "es",
+  DMA: "en", TTO: "en", LCA: "en", MAC: "zh", UKR: "uk", PER: "es", SRB: "sr", TWN: "zh-TW",
+  SLB: "en", GTM: "es", SLV: "es", COL: "es", HND: "es", MHL: "en", WSM: "sm", MNE: "sr",
+  MKD: "mk", TON: "to", NIC: "es", TUV: "en", ALB: "sq", BIH: "bs", GEO: "ka", KIR: "en",
+  FSM: "en", MDA: "ro", PLW: "en", VEN: "es", RUS: "ru", QAT: "ar", TUR: "tr", ZAF: "en",
+  BLZ: "en", KWT: "ar", MDV: "dv", TLS: "pt", ECU: "es", SAU: "ar", BHR: "ar", GUY: "en",
+  FJI: "en", VUT: "en", OMN: "ar", JAM: "en", NRU: "en", PNG: "en", XKX: "sq", CHN: "zh",
+  BWA: "en", BLR: "ru", BOL: "es", KAZ: "kk", THA: "th", SUR: "nl", NAM: "en", LSO: "en",
+  SWZ: "en", MAR: "ar", DOM: "es", IDN: "id", KEN: "sw", MWI: "en", GMB: "en", RWA: "rw",
+  TZA: "sw", AZE: "az", GHA: "en", TUN: "ar", BEN: "fr", PHL: "fil", UGA: "en", ARM: "hy",
+  CPV: "pt", MNG: "mn", ZMB: "en", SLE: "en", ZWE: "en", MOZ: "pt", KGZ: "ky", STP: "pt",
+  UZB: "uz", BFA: "fr", CUB: "es", TGO: "fr", CIV: "fr", GAB: "fr", MDG: "fr", SEN: "fr",
+  DZA: "ar", IND: "hi", MRT: "ar", GNQ: "es", NER: "fr", GIN: "fr", MLI: "fr", TJK: "tg",
+  TCD: "fr", COM: "ar", GNB: "pt", AGO: "pt", EGY: "ar", JOR: "ar", LBR: "en", BDI: "fr",
+  CMR: "fr", CAF: "fr", HTI: "fr", VNM: "vi", BTN: "dz", KHM: "km", COG: "fr", DJI: "fr",
+  LAO: "lo", COD: "fr", NGA: "en", TKM: "tk", MMR: "my", ETH: "am", LBN: "ar", SSD: "en",
+  SDN: "ar", LBY: "ar", LKA: "si", ERI: "ti", IRN: "fa", PSE: "ar", BGD: "bn", PRK: "ko",
+  NPL: "ne", SOM: "so", YEM: "ar", PAK: "ur", IRQ: "ar", SYR: "ar", AFG: "fa",
+};
+
+function getPassportLanguageCode(country: CountryProfile) {
+  const requestedCode = passportLanguageCodeByIso3[country.iso3] ?? "en";
+  return languageOptions.some((language) => language.code === requestedCode) ? requestedCode : "en";
+}
+
+function getPassportLanguagePromptCopy(languageCode: string) {
+  const fallbackCode = getLanguageFallbackCode(languageCode);
+  return passportLanguagePromptCopyByLanguage[languageCode]
+    ?? passportLanguagePromptCopyByLanguage[fallbackCode]
+    ?? passportLanguagePromptCopyByLanguage.en;
+}
+
 const generatedUiTranslations = translationData.translations as unknown as Record<string, Partial<Copy> & {
   route?: Partial<RouteCopy>;
   entry?: Partial<EntryCopy>;
@@ -439,6 +591,7 @@ export function WelcomeScreen() {
   const [entryOriginQuery, setEntryOriginQuery] = useState("");
   const [originIso, setOriginIso] = useState("");
   const [destinationIso, setDestinationIso] = useState("");
+  const [passportLanguagePrompt, setPassportLanguagePrompt] = useState<PassportLanguagePrompt | null>(null);
   const languageMenuRef = useRef<HTMLDivElement>(null);
   const entryLanguageMenuRef = useRef<HTMLDivElement>(null);
   const entryTopLanguageRef = useRef<HTMLDivElement>(null);
@@ -493,6 +646,10 @@ export function WelcomeScreen() {
   const selectedOriginName = selectedOrigin
     ? getCountryName(selectedOrigin, languageCode)
     : "";
+  const passportLanguagePromptCopy = getPassportLanguagePromptCopy(languageCode);
+  const recommendedLanguage = passportLanguagePrompt
+    ? languageOptions.find((language) => language.code === passportLanguagePrompt.languageCode) ?? languageOptions.find((language) => language.code === "en")
+    : null;
   useEffect(() => {
     // The onboarding screen is intentionally English on every fresh entry.
     // A visitor can still choose another language before continuing.
@@ -508,6 +665,15 @@ export function WelcomeScreen() {
   }, [activeLanguage.rtl, languageCode, languageLoaded]);
 
   useEffect(() => {
+    if (!passportLanguagePrompt) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [passportLanguagePrompt]);
+
+  useEffect(() => {
     const handlePointerDown = (event: PointerEvent) => {
       if (!languageMenuRef.current?.contains(event.target as Node)) setLanguageOpen(false);
       if (!entryLanguageMenuRef.current?.contains(event.target as Node)) setEntryLanguageOpen(false);
@@ -520,6 +686,9 @@ export function WelcomeScreen() {
         setEntryLanguageOpen(false);
         setEntryTopLanguageOpen(false);
         setEntryOriginOpen(false);
+        if (passportLanguagePrompt) {
+          setPassportLanguagePrompt(null);
+        }
       }
     };
     document.addEventListener("pointerdown", handlePointerDown);
@@ -528,7 +697,7 @@ export function WelcomeScreen() {
       document.removeEventListener("pointerdown", handlePointerDown);
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, []);
+  }, [passportLanguagePrompt]);
 
   const chooseLanguage = (code: string) => {
     setLanguageCode(code);
@@ -547,10 +716,32 @@ export function WelcomeScreen() {
   };
 
   const chooseEntryOrigin = (iso3: string) => {
+    const country = countries.find((item) => item.iso3 === iso3);
     setOriginIso(iso3);
     setEntryOriginOpen(false);
     setEntryOriginQuery("");
-    if (!entryLanguageChosen) window.setTimeout(() => setEntryLanguageOpen(true), 120);
+    if (!entryLanguageChosen && country) {
+      setPassportLanguagePrompt({ country, languageCode: getPassportLanguageCode(country) });
+    }
+  };
+
+  const usePassportLanguage = () => {
+    if (!passportLanguagePrompt) return;
+    setLanguageCode(passportLanguagePrompt.languageCode);
+    setEntryLanguageChosen(true);
+    setEntryLanguageOpen(false);
+    setEntryTopLanguageOpen(false);
+    setLanguageQuery("");
+    setPassportLanguagePrompt(null);
+  };
+
+  const keepCurrentLanguage = () => {
+    setEntryLanguageChosen(true);
+    setPassportLanguagePrompt(null);
+  };
+
+  const dismissPassportLanguagePrompt = () => {
+    setPassportLanguagePrompt(null);
   };
 
   const confirmEntry = (nextLanguage = languageCode, nextOrigin = originIso) => {
@@ -686,6 +877,58 @@ export function WelcomeScreen() {
           <span><LockKeyhole size={14} />{entryCopy.privacy}</span>
           <small>© 2026 P1ter11. All rights reserved.</small>
         </footer>
+
+        {passportLanguagePrompt && recommendedLanguage && (
+          <div
+              className="passport-language-prompt-backdrop"
+            role="presentation"
+            onMouseDown={(event) => {
+              if (event.target === event.currentTarget) dismissPassportLanguagePrompt();
+            }}
+          >
+            <section
+              className="passport-language-prompt"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="passport-language-prompt-title"
+              aria-describedby="passport-language-prompt-description"
+            >
+              <button
+                className="passport-language-prompt-close"
+                type="button"
+                onClick={dismissPassportLanguagePrompt}
+                aria-label={passportLanguagePromptCopy.close}
+              >
+                <X size={17} />
+              </button>
+              <div className="passport-language-prompt-icon" aria-hidden="true"><Languages size={20} /></div>
+              <span className="passport-language-prompt-kicker">Passport Atlas</span>
+              <h2 id="passport-language-prompt-title">{passportLanguagePromptCopy.title}</h2>
+              <div className="passport-language-prompt-country">
+                <span className="passport-language-prompt-flag" aria-hidden="true">{passportLanguagePrompt.country.flag}</span>
+                <span>
+                  <strong>{getCountryName(passportLanguagePrompt.country, languageCode)}</strong>
+                  <small>{passportLanguagePrompt.country.iso3} · {passportLanguagePrompt.country.iso2}</small>
+                </span>
+              </div>
+              <p id="passport-language-prompt-description">
+                {formatCopy(passportLanguagePromptCopy.description, {
+                  country: getCountryName(passportLanguagePrompt.country, languageCode),
+                  language: recommendedLanguage.native,
+                })}
+              </p>
+              <div className="passport-language-prompt-actions">
+                <button className="passport-language-prompt-primary" type="button" onClick={usePassportLanguage}>
+                  <Check size={16} />
+                  <span>{passportLanguagePromptCopy.autoSelect}</span>
+                </button>
+                <button className="passport-language-prompt-secondary" type="button" onClick={() => keepCurrentLanguage()}>
+                  <span>{passportLanguagePromptCopy.keepCurrent}</span>
+                </button>
+              </div>
+            </section>
+          </div>
+        )}
       </main>
     );
   }

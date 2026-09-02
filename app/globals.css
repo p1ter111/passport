@@ -9750,6 +9750,215 @@ body,
   }
 }
 
+/* Passport language recommendation dialog */
+.passport-language-prompt-backdrop {
+  position: fixed;
+  z-index: 120;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(24, 28, 32, 0.22);
+  backdrop-filter: blur(7px);
+  animation: passport-language-prompt-fade 180ms ease both;
+}
+
+.passport-language-prompt {
+  position: relative;
+  width: min(438px, 100%);
+  overflow: hidden;
+  border: 1px solid rgba(215, 219, 216, 0.92);
+  border-radius: 24px;
+  padding: 30px;
+  color: #20211f;
+  background: #ffffff;
+  box-shadow: 0 28px 80px rgba(25, 29, 27, 0.18), 0 4px 14px rgba(25, 29, 27, 0.06);
+  animation: passport-language-prompt-rise 240ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.passport-language-prompt-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 32px;
+  height: 32px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid #e7e8e5;
+  border-radius: 50%;
+  color: #757873;
+  background: #fafaf8;
+  cursor: pointer;
+  transition: color 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.passport-language-prompt-close:hover {
+  border-color: #cdd1cc;
+  color: #20211f;
+  background: #f2f3f0;
+}
+
+.passport-language-prompt-close:focus-visible,
+.passport-language-prompt-primary:focus-visible,
+.passport-language-prompt-secondary:focus-visible {
+  outline: 3px solid rgba(74, 86, 77, 0.22);
+  outline-offset: 3px;
+}
+
+.passport-language-prompt-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  color: #4b5c51;
+  background: #eef1ed;
+}
+
+.passport-language-prompt-kicker {
+  display: block;
+  margin-top: 22px;
+  color: #8a8e88;
+  font-size: 10px;
+  font-weight: 760;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.passport-language-prompt h2 {
+  max-width: 340px;
+  margin: 8px 40px 0 0;
+  color: #20211f;
+  font-size: clamp(22px, 3vw, 29px);
+  font-weight: 730;
+  letter-spacing: -0.02em;
+  line-height: 1.13;
+}
+
+.passport-language-prompt-country {
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 24px;
+  border-top: 1px solid #eceeea;
+  border-bottom: 1px solid #eceeea;
+  padding: 13px 0;
+}
+
+.passport-language-prompt-flag {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.passport-language-prompt-country > span:last-child {
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.passport-language-prompt-country strong {
+  overflow: hidden;
+  color: #252724;
+  font-size: 14px;
+  font-weight: 720;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.passport-language-prompt-country small {
+  color: #8b9089;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+}
+
+.passport-language-prompt p {
+  margin: 18px 0 0;
+  color: #70756f;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.passport-language-prompt-actions {
+  display: grid;
+  gap: 9px;
+  margin-top: 25px;
+}
+
+.passport-language-prompt-primary,
+.passport-language-prompt-secondary {
+  width: 100%;
+  min-height: 47px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border-radius: 12px;
+  padding: 0 16px;
+  font-size: 12px;
+  font-weight: 720;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.passport-language-prompt-primary {
+  border: 1px solid #29312c;
+  color: #ffffff;
+  background: #29312c;
+  box-shadow: 0 8px 18px rgba(41, 49, 44, 0.16);
+}
+
+.passport-language-prompt-primary:hover {
+  background: #1e2621;
+  box-shadow: 0 11px 24px rgba(41, 49, 44, 0.22);
+  transform: translateY(-1px);
+}
+
+.passport-language-prompt-secondary {
+  border: 1px solid #e1e4df;
+  color: #5e655e;
+  background: #ffffff;
+}
+
+.passport-language-prompt-secondary:hover {
+  border-color: #cfd4ce;
+  background: #f7f8f5;
+  transform: translateY(-1px);
+}
+
+@keyframes passport-language-prompt-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes passport-language-prompt-rise {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 520px) {
+  .passport-language-prompt-backdrop {
+    align-items: end;
+    padding: 12px;
+  }
+
+  .passport-language-prompt {
+    width: 100%;
+    border-radius: 20px;
+    padding: 24px 21px 21px;
+  }
+
+  .passport-language-prompt h2 {
+    margin-right: 34px;
+    font-size: 24px;
+  }
+
+  .passport-language-prompt-country {
+    margin-top: 20px;
+  }
+}
+
 /* Verified passport archive. Only sourced photographs are rendered here. */
 .passport-history {
   background: #fbfbfa;
