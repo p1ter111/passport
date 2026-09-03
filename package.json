@@ -8,6 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
     "data:refresh": "node scripts/generate-passport-data.mjs",
     "rankings:refresh": "node scripts/refresh-henley-ranking.mjs && node scripts/generate-passport-data.mjs",
     "covers:refresh:hq": "node scripts/import-high-resolution-passport-covers.mjs",
@@ -20,8 +22,11 @@
     "i18n:countries": "node scripts/generate-country-names.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.113.0",
+    "html-to-image": "^1.11.13",
     "lucide-react": "latest",
     "next": "latest",
+    "qrcode": "^1.5.4",
     "react": "latest",
     "react-dom": "latest",
     "react-globe.gl": "latest",
@@ -33,6 +38,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
     "@types/node": "latest",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-simple-maps": "latest",
@@ -43,6 +49,7 @@
     "i18n-iso-countries": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "vitest": "^4.1.11"
   }
 }

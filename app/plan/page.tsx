@@ -4,7 +4,7 @@ import { allCountries, getVisaRules } from "@/lib/passport-data";
 import type { VisaRule } from "@/types/visa";
 
 type PlanPageProps = {
-  searchParams: Promise<{ from?: string; to?: string; days?: string; date?: string; purpose?: string; transit?: string }>;
+  searchParams: Promise<{ from?: string; to?: string; days?: string; date?: string; purpose?: string; transit?: string; city?: string }>;
 };
 
 export default async function PlanPage({ searchParams }: PlanPageProps) {
@@ -30,6 +30,7 @@ export default async function PlanPage({ searchParams }: PlanPageProps) {
         departureDate: params.date ?? "",
         purpose: params.purpose && allowedPurposes.has(params.purpose) ? params.purpose : "tourism",
         transitIso3: params.transit?.toUpperCase() ?? "",
+        destinationCity: params.city ?? "",
       }}
     />
   );

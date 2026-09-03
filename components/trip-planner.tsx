@@ -43,6 +43,7 @@ type TripPlannerProps = {
     departureDate?: string;
     purpose?: string;
     transitIso3?: string;
+    destinationCity?: string;
   };
 };
 
@@ -184,7 +185,12 @@ export function TripPlanner({ origin, destination, rule, initialPlan }: TripPlan
   const [currentDate, setCurrentDate] = useState<Date | null>(null);
   const [currentLocationIso, setCurrentLocationIso] = useState("");
   const [originCity, setOriginCity] = useState(() => getCities(origin)[0] ?? origin.name);
-  const [destinationCity, setDestinationCity] = useState(() => getCities(destination)[0] ?? destination.name);
+  const [destinationCity, setDestinationCity] = useState(() => {
+    const cities = getCities(destination);
+    return initialPlan?.destinationCity && cities.includes(initialPlan.destinationCity)
+      ? initialPlan.destinationCity
+      : cities[0] ?? destination.name;
+  });
   const [boardingPassSwiped, setBoardingPassSwiped] = useState(false);
   const [boardingPassOffset, setBoardingPassOffset] = useState(0);
   const [isBoardingDragging, setIsBoardingDragging] = useState(false);

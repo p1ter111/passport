@@ -17,10 +17,12 @@ import {
   Route,
   Search,
   ShieldCheck,
+  UsersRound,
   X,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { forwardRef, type ReactNode, useEffect, useMemo, useRef, useState } from "react";
+import { DestinationWheel } from "./destination-wheel";
 import { WelcomeWorldMap } from "./welcome-world-map";
 
 type Copy = {
@@ -201,6 +203,7 @@ const countries = countriesData as CountryProfile[];
 type RouteCopy = {
   planMode: string;
   exploreMode: string;
+  groupMode: string;
   originQuestion: string;
   originHint: string;
   destinationQuestion: string;
@@ -217,6 +220,7 @@ type EntryCopy = {
   currentLocation?: string;
   currentLocationHint?: string;
   clearLocation?: string;
+  groupMatch: string;
   language: string;
   continue: string;
   privacy: string;
@@ -353,18 +357,18 @@ const RouteCountryPicker = forwardRef<HTMLButtonElement, RouteCountryPickerProps
 });
 
 const entryCopyByLanguage: Record<string, EntryCopy> = {
-  en: { hello: "Hello!", from: "I'm from", language: "Language", continue: "Continue", privacy: "Your privacy is important to us.", selectCountry: "Select your country", searchCountries: "Search countries", countries: "countries and regions" },
-  zh: { hello: "你好！", from: "我来自", language: "语言", continue: "继续", privacy: "我们重视你的隐私。", selectCountry: "选择你的国家或地区", searchCountries: "搜索国家", countries: "个国家和地区" },
-  es: { hello: "¡Hola!", from: "Soy de", language: "Idioma", continue: "Continuar", privacy: "Tu privacidad es importante para nosotros.", selectCountry: "Selecciona tu país", searchCountries: "Buscar países", countries: "países y regiones" },
-  fr: { hello: "Bonjour !", from: "Je viens de", language: "Langue", continue: "Continuer", privacy: "Votre vie privée est importante pour nous.", selectCountry: "Sélectionnez votre pays", searchCountries: "Rechercher un pays", countries: "pays et régions" },
-  de: { hello: "Hallo!", from: "Ich komme aus", language: "Sprache", continue: "Weiter", privacy: "Deine Privatsphäre ist uns wichtig.", selectCountry: "Wähle dein Land", searchCountries: "Länder suchen", countries: "Länder und Regionen" },
-  ja: { hello: "こんにちは！", from: "出身国", language: "言語", continue: "続ける", privacy: "プライバシーを大切にしています。", selectCountry: "国または地域を選択", searchCountries: "国を検索", countries: "の国と地域" },
-  ko: { hello: "안녕하세요!", from: "출신 국가", language: "언어", continue: "계속", privacy: "개인정보를 소중히 보호합니다.", selectCountry: "국가 또는 지역 선택", searchCountries: "국가 검색", countries: "개 국가 및 지역" },
-  ar: { hello: "مرحباً!", from: "أنا من", language: "اللغة", continue: "متابعة", privacy: "خصوصيتك مهمة بالنسبة لنا.", selectCountry: "اختر دولتك", searchCountries: "ابحث عن دولة", countries: "دولة ومنطقة" },
-  ru: { hello: "Здравствуйте!", from: "Я из", language: "Язык", continue: "Продолжить", privacy: "Ваша конфиденциальность важна для нас.", selectCountry: "Выберите страну", searchCountries: "Поиск стран", countries: "стран и регионов" },
-  pt: { hello: "Olá!", from: "Eu sou de", language: "Idioma", continue: "Continuar", privacy: "A sua privacidade é importante para nós.", selectCountry: "Escolha o seu país", searchCountries: "Pesquisar países", countries: "países e regiões" },
-  tr: { hello: "Merhaba!", from: "Ben", language: "Dil", continue: "Devam et", privacy: "Gizliliğiniz bizim için önemlidir.", selectCountry: "Ülkenizi seçin", searchCountries: "Ülke ara", countries: "ülke ve bölge" },
-  hi: { hello: "नमस्ते!", from: "मैं यहां से हूं", language: "भाषा", continue: "जारी रखें", privacy: "आपकी गोपनीयता हमारे लिए महत्वपूर्ण है।", selectCountry: "अपना देश चुनें", searchCountries: "देश खोजें", countries: "देश और क्षेत्र" },
+  en: { hello: "Hello!", from: "I'm from", groupMatch: "Match a group trip", language: "Language", continue: "Continue", privacy: "Your privacy is important to us.", selectCountry: "Select your country", searchCountries: "Search countries", countries: "countries and regions" },
+  zh: { hello: "你好！", from: "我来自", groupMatch: "多人匹配", language: "语言", continue: "继续", privacy: "我们重视你的隐私。", selectCountry: "选择你的国家或地区", searchCountries: "搜索国家", countries: "个国家和地区" },
+  es: { hello: "¡Hola!", from: "Soy de", groupMatch: "Combinar viaje en grupo", language: "Idioma", continue: "Continuar", privacy: "Tu privacidad es importante para nosotros.", selectCountry: "Selecciona tu país", searchCountries: "Buscar países", countries: "países y regiones" },
+  fr: { hello: "Bonjour !", from: "Je viens de", groupMatch: "Associer un voyage de groupe", language: "Langue", continue: "Continuer", privacy: "Votre vie privée est importante pour nous.", selectCountry: "Sélectionnez votre pays", searchCountries: "Rechercher un pays", countries: "pays et régions" },
+  de: { hello: "Hallo!", from: "Ich komme aus", groupMatch: "Gruppenreise abgleichen", language: "Sprache", continue: "Weiter", privacy: "Deine Privatsphäre ist uns wichtig.", selectCountry: "Wähle dein Land", searchCountries: "Länder suchen", countries: "Länder und Regionen" },
+  ja: { hello: "こんにちは！", from: "出身国", groupMatch: "グループ旅行をマッチ", language: "言語", continue: "続ける", privacy: "プライバシーを大切にしています。", selectCountry: "国または地域を選択", searchCountries: "国を検索", countries: "の国と地域" },
+  ko: { hello: "안녕하세요!", from: "출신 국가", groupMatch: "그룹 여행 매칭", language: "언어", continue: "계속", privacy: "개인정보를 소중히 보호합니다.", selectCountry: "국가 또는 지역 선택", searchCountries: "국가 검색", countries: "개 국가 및 지역" },
+  ar: { hello: "مرحباً!", from: "أنا من", groupMatch: "مطابقة رحلة جماعية", language: "اللغة", continue: "متابعة", privacy: "خصوصيتك مهمة بالنسبة لنا.", selectCountry: "اختر دولتك", searchCountries: "ابحث عن دولة", countries: "دولة ومنطقة" },
+  ru: { hello: "Здравствуйте!", from: "Я из", groupMatch: "Подобрать групповую поездку", language: "Язык", continue: "Продолжить", privacy: "Ваша конфиденциальность важна для нас.", selectCountry: "Выберите страну", searchCountries: "Поиск стран", countries: "стран и регионов" },
+  pt: { hello: "Olá!", from: "Eu sou de", groupMatch: "Encontrar viagem em grupo", language: "Idioma", continue: "Continuar", privacy: "A sua privacidade é importante para nós.", selectCountry: "Escolha o seu país", searchCountries: "Pesquisar países", countries: "países e regiões" },
+  tr: { hello: "Merhaba!", from: "Ben", groupMatch: "Grup gezisi eşleştir", language: "Dil", continue: "Devam et", privacy: "Gizliliğiniz bizim için önemlidir.", selectCountry: "Ülkenizi seçin", searchCountries: "Ülke ara", countries: "ülke ve bölge" },
+  hi: { hello: "नमस्ते!", from: "मैं यहां से हूं", groupMatch: "समूह यात्रा मिलाएं", language: "भाषा", continue: "जारी रखें", privacy: "आपकी गोपनीयता हमारे लिए महत्वपूर्ण है।", selectCountry: "अपना देश चुनें", searchCountries: "देश खोजें", countries: "देश और क्षेत्र" },
 };
 
 type EntryContextCopy = {
@@ -394,18 +398,18 @@ const traditionalWelcomeCopy = toTraditionalDeep(copyByLanguage.zh);
 const traditionalEntryCopy = toTraditionalDeep(entryCopyByLanguage.zh);
 
 const routeCopyByLanguage: Record<string, RouteCopy> = {
-  zh: { planMode: "规划我的旅程", exploreMode: "自由探索护照", originQuestion: "你是哪国人？", originHint: "选择你持有的护照", destinationQuestion: "你想去哪个国家？", destinationHint: "选择本次旅行目的地", placeholder: "请选择国家或地区", submit: "查看我的签证方案" },
-  en: { planMode: "Plan my journey", exploreMode: "Explore passports", originQuestion: "Which passport do you hold?", originHint: "Select your passport country", destinationQuestion: "Where do you want to go?", destinationHint: "Select your destination", placeholder: "Choose a country or region", submit: "See my visa plan" },
-  es: { planMode: "Planificar mi viaje", exploreMode: "Explorar pasaportes", originQuestion: "¿Que pasaporte tienes?", originHint: "Selecciona el pais de tu pasaporte", destinationQuestion: "¿A donde quieres ir?", destinationHint: "Selecciona tu destino", placeholder: "Elige un pais o region", submit: "Ver mi plan de visado" },
-  fr: { planMode: "Planifier mon voyage", exploreMode: "Explorer les passeports", originQuestion: "Quel passeport possedez-vous ?", originHint: "Selectionnez votre pays", destinationQuestion: "Ou souhaitez-vous aller ?", destinationHint: "Selectionnez votre destination", placeholder: "Choisissez un pays ou une region", submit: "Voir mon plan de visa" },
-  de: { planMode: "Reise planen", exploreMode: "Passe entdecken", originQuestion: "Welchen Reisepass hast du?", originHint: "Wahle dein Passland", destinationQuestion: "Wohin mochtest du reisen?", destinationHint: "Wahle dein Reiseziel", placeholder: "Land oder Region wahlen", submit: "Visumplan anzeigen" },
-  ja: { planMode: "旅程を計画", exploreMode: "パスポートを探索", originQuestion: "どの国のパスポートですか？", originHint: "保有するパスポートを選択", destinationQuestion: "どの国へ行きたいですか？", destinationHint: "旅行先を選択", placeholder: "国または地域を選択", submit: "ビザプランを確認" },
-  ko: { planMode: "여행 계획", exploreMode: "여권 자유 탐색", originQuestion: "어느 나라 여권을 가지고 있나요?", originHint: "보유한 여권을 선택하세요", destinationQuestion: "어느 나라로 가고 싶나요?", destinationHint: "여행지를 선택하세요", placeholder: "국가 또는 지역 선택", submit: "비자 계획 확인" },
-  ar: { planMode: "خطط لرحلتي", exploreMode: "استكشف الجوازات", originQuestion: "ما جواز السفر الذي تحمله؟", originHint: "اختر دولة جواز سفرك", destinationQuestion: "إلى أي دولة تريد الذهاب؟", destinationHint: "اختر وجهتك", placeholder: "اختر دولة أو منطقة", submit: "عرض خطة التأشيرة" },
-  ru: { planMode: "Спланировать поездку", exploreMode: "Исследовать паспорта", originQuestion: "Какой у вас паспорт?", originHint: "Выберите страну паспорта", destinationQuestion: "Куда вы хотите поехать?", destinationHint: "Выберите страну назначения", placeholder: "Выберите страну или регион", submit: "Показать визовый план" },
-  pt: { planMode: "Planejar minha viagem", exploreMode: "Explorar passaportes", originQuestion: "Qual passaporte voce possui?", originHint: "Selecione o pais do seu passaporte", destinationQuestion: "Para onde voce quer ir?", destinationHint: "Selecione o destino", placeholder: "Escolha um pais ou regiao", submit: "Ver meu plano de visto" },
-  tr: { planMode: "Seyahatimi planla", exploreMode: "Pasaportları keşfet", originQuestion: "Hangi ülkenin pasaportuna sahipsin?", originHint: "Sahip olduğun pasaportu seç", destinationQuestion: "Hangi ülkeye gitmek istiyorsun?", destinationHint: "Seyahat hedefini seç", placeholder: "Ülke veya bölge seç", submit: "Vize planımı göster" },
-  hi: { planMode: "मेरी यात्रा की योजना", exploreMode: "पासपोर्ट खोजें", originQuestion: "आपके पास किस देश का पासपोर्ट है?", originHint: "अपना पासपोर्ट देश चुनें", destinationQuestion: "आप किस देश जाना चाहते हैं?", destinationHint: "अपना गंतव्य चुनें", placeholder: "देश या क्षेत्र चुनें", submit: "वीजा योजना देखें" },
+  zh: { planMode: "规划我的旅程", exploreMode: "自由探索护照", groupMode: "多人匹配", originQuestion: "你是哪国人？", originHint: "选择你持有的护照", destinationQuestion: "你想去哪个国家？", destinationHint: "选择本次旅行目的地", placeholder: "请选择国家或地区", submit: "查看我的签证方案" },
+  en: { planMode: "Plan my journey", exploreMode: "Explore passports", groupMode: "Group Match", originQuestion: "Which passport do you hold?", originHint: "Select your passport country", destinationQuestion: "Where do you want to go?", destinationHint: "Select your destination", placeholder: "Choose a country or region", submit: "See my visa plan" },
+  es: { planMode: "Planificar mi viaje", exploreMode: "Explorar pasaportes", groupMode: "Viaje en grupo", originQuestion: "¿Que pasaporte tienes?", originHint: "Selecciona el pais de tu pasaporte", destinationQuestion: "¿A donde quieres ir?", destinationHint: "Selecciona tu destino", placeholder: "Elige un pais o region", submit: "Ver mi plan de visado" },
+  fr: { planMode: "Planifier mon voyage", exploreMode: "Explorer les passeports", groupMode: "Voyage en groupe", originQuestion: "Quel passeport possedez-vous ?", originHint: "Selectionnez votre pays", destinationQuestion: "Ou souhaitez-vous aller ?", destinationHint: "Selectionnez votre destination", placeholder: "Choisissez un pays ou une region", submit: "Voir mon plan de visa" },
+  de: { planMode: "Reise planen", exploreMode: "Passe entdecken", groupMode: "Gruppenreise", originQuestion: "Welchen Reisepass hast du?", originHint: "Wahle dein Passland", destinationQuestion: "Wohin mochtest du reisen?", destinationHint: "Wahle dein Reiseziel", placeholder: "Land oder Region wahlen", submit: "Visumplan anzeigen" },
+  ja: { planMode: "旅程を計画", exploreMode: "パスポートを探索", groupMode: "グループ旅行", originQuestion: "どの国のパスポートですか？", originHint: "保有するパスポートを選択", destinationQuestion: "どの国へ行きたいですか？", destinationHint: "旅行先を選択", placeholder: "国または地域を選択", submit: "ビザプランを確認" },
+  ko: { planMode: "여행 계획", exploreMode: "여권 자유 탐색", groupMode: "그룹 매칭", originQuestion: "어느 나라 여권을 가지고 있나요?", originHint: "보유한 여권을 선택하세요", destinationQuestion: "어느 나라로 가고 싶나요?", destinationHint: "여행지를 선택하세요", placeholder: "국가 또는 지역 선택", submit: "비자 계획 확인" },
+  ar: { planMode: "خطط لرحلتي", exploreMode: "استكشف الجوازات", groupMode: "رحلة جماعية", originQuestion: "ما جواز السفر الذي تحمله؟", originHint: "اختر دولة جواز سفرك", destinationQuestion: "إلى أي دولة تريد الذهاب؟", destinationHint: "اختر وجهتك", placeholder: "اختر دولة أو منطقة", submit: "عرض خطة التأشيرة" },
+  ru: { planMode: "Спланировать поездку", exploreMode: "Исследовать паспорта", groupMode: "Групповая поездка", originQuestion: "Какой у вас паспорт?", originHint: "Выберите страну паспорта", destinationQuestion: "Куда вы хотите поехать?", destinationHint: "Выберите страну назначения", placeholder: "Выберите страну или регион", submit: "Показать визовый план" },
+  pt: { planMode: "Planejar minha viagem", exploreMode: "Explorar passaportes", groupMode: "Viagem em grupo", originQuestion: "Qual passaporte voce possui?", originHint: "Selecione o pais do seu passaporte", destinationQuestion: "Para onde voce quer ir?", destinationHint: "Selecione o destino", placeholder: "Escolha um pais ou regiao", submit: "Ver meu plano de visto" },
+  tr: { planMode: "Seyahatimi planla", exploreMode: "Pasaportları keşfet", groupMode: "Grup eşleştirme", originQuestion: "Hangi ülkenin pasaportuna sahipsin?", originHint: "Sahip olduğun pasaportu seç", destinationQuestion: "Hangi ülkeye gitmek istiyorsun?", destinationHint: "Seyahat hedefini seç", placeholder: "Ülke veya bölge seç", submit: "Vize planımı göster" },
+  hi: { planMode: "मेरी यात्रा की योजना", exploreMode: "पासपोर्ट खोजें", groupMode: "समूह यात्रा", originQuestion: "आपके पास किस देश का पासपोर्ट है?", originHint: "अपना पासपोर्ट देश चुनें", destinationQuestion: "आप किस देश जाना चाहते हैं?", destinationHint: "अपना गंतव्य चुनें", placeholder: "देश या क्षेत्र चुनें", submit: "वीजा योजना देखें" },
 };
 
 const traditionalRouteCopy = toTraditionalDeep(routeCopyByLanguage.zh);
@@ -871,6 +875,11 @@ export function WelcomeScreen() {
             <span>{entryCopy.continue}</span>
             <ArrowRight size={19} />
           </button>
+          <button className="entry-onboarding-group-link" type="button" onClick={() => router.push("/groups")}>
+            <Route size={16} />
+            <span>{entryCopy.groupMatch}</span>
+            <ArrowRight size={15} />
+          </button>
         </section>
 
         <footer className="entry-onboarding-privacy">
@@ -998,6 +1007,7 @@ export function WelcomeScreen() {
           <div className="welcome-mode-switch" role="group" aria-label="Passport Atlas mode">
             <button className="active" type="button" aria-pressed="true" onClick={() => originSelectRef.current?.focus()}><Route size={16} />{routeCopy.planMode}</button>
             <button type="button" onClick={() => router.push("/explore")}><Globe2 size={16} />{routeCopy.exploreMode}</button>
+            <button type="button" onClick={() => router.push("/groups")}><UsersRound size={16} />{routeCopy.groupMode}</button>
           </div>
           <form className="welcome-route-form" onSubmit={submitRoute}>
             <RouteCountryPicker
@@ -1037,6 +1047,8 @@ export function WelcomeScreen() {
           <p className="welcome-trust"><ShieldCheck size={17} /> {copy.trust}</p>
         </div>
       </section>
+
+      <DestinationWheel languageCode={languageCode} originIso={originIso} />
 
       <footer className="welcome-footer">© 2026 P1ter11. All rights reserved.</footer>
     </main>

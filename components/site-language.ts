@@ -11,6 +11,10 @@ function readLocale(): SiteLocale {
 
 const rtlLocales = new Set(["ar", "dv", "fa", "he", "ps", "sd", "ug", "ur", "yi"]);
 
+export function isRtlLocale(locale: string) {
+  return rtlLocales.has(locale);
+}
+
 export function useSiteLanguage() {
   const [locale, setLocale] = useState<SiteLocale>("en");
 
@@ -19,7 +23,7 @@ export function useSiteLanguage() {
       const nextLocale = readLocale();
       setLocale(nextLocale);
       document.documentElement.lang = nextLocale;
-      document.documentElement.dir = rtlLocales.has(nextLocale) ? "rtl" : "ltr";
+      document.documentElement.dir = isRtlLocale(nextLocale) ? "rtl" : "ltr";
     };
     sync();
     window.addEventListener("storage", sync);

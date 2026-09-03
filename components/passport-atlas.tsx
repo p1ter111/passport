@@ -12,12 +12,14 @@ import {
   Menu,
   Search,
   ShieldCheck,
+  UsersRound,
   X,
 } from "lucide-react";
 import { FormEvent, useMemo, useRef, useState } from "react";
 import countriesData from "@/data/countries.json";
 import type { CountryProfile } from "@/types/passport";
 import { PassportCover } from "./passport-cover";
+import { DestinationWheel } from "./destination-wheel";
 import { useSiteLanguage, type SiteLocale } from "./site-language";
 import { formatCopy, getAppCopy, getCountryName, getRegionName, toTraditionalDeep } from "@/lib/i18n";
 
@@ -52,6 +54,7 @@ const strengthColors = {
 const atlasCopy = {
   en: {
     explore: "Explore", rankings: "Rankings", compare: "Compare", insights: "Insights", search: "Search", login: "Login",
+    surpriseMe: "Surprise me",
     heroTop: "One passport", heroBottom: "connects the world", heroBody: "Explore global travel freedom in real time,\nand discover your next journey.",
     searchPlaceholder: "Search countries or passports, e.g. Japan", countries: "Countries", passports: "Passports", destinations: "Visa-free access",
     flat: "Map", globe: "3D", high: "High access", moderate: "Moderate", limited: "Limited", restricted: "Restricted",
@@ -65,6 +68,7 @@ const atlasCopy = {
   },
   zh: {
     explore: "探索", rankings: "护照排名", compare: "对比", insights: "数据洞察", search: "搜索", login: "登录",
+    surpriseMe: "随机目的地",
     heroTop: "一本护照", heroBottom: "连接世界", heroBody: "实时探索全球旅行自由度，\n发现你的下一段旅程。",
     searchPlaceholder: "搜索国家或护照，例如：日本", countries: "国家和地区", passports: "本护照", destinations: "免预签目的地",
     flat: "平面", globe: "3D", high: "高自由度", moderate: "较高", limited: "中等", restricted: "受限制",
@@ -152,7 +156,6 @@ export function PassportAtlas() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [compareOpen, setCompareOpen] = useState(false);
   const [plannerOpen, setPlannerOpen] = useState(false);
-  const [authOpen, setAuthOpen] = useState(false);
   const searchRef = useRef<HTMLInputElement>(null);
   const totalVisaFreeDestinations = useMemo(
     () => countries.reduce((sum, country) => sum + country.accessibleCountries, 0),
@@ -229,6 +232,11 @@ export function PassportAtlas() {
     setMobileMenuOpen(false);
   };
 
+  const scrollToWheel = () => {
+    document.querySelector("#destination-wheel")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    setMobileMenuOpen(false);
+  };
+
   return (
     <main className="site-shell">
       <header className="site-header">
@@ -242,6 +250,7 @@ export function PassportAtlas() {
           <button type="button" onClick={openRankings}>{copy.rankings}</button>
           <button type="button" onClick={() => setCompareOpen(true)}>{copy.compare}</button>
           <button type="button" onClick={scrollToInsights}>{copy.insights}</button>
+          <button type="button" onClick={scrollToWheel}>{copy.surpriseMe}</button>
         </nav>
 
         <div className="header-actions">
@@ -252,7 +261,8 @@ export function PassportAtlas() {
           <Link className="icon-button header-library-link" href="/saved" aria-label={copy.myList} title={copy.myList}>
             <Bookmark size={17} />
           </Link>
-          <button className="login-button" type="button" onClick={() => setAuthOpen(true)}>{copy.login}</button>
+          <Link className="group-match-nav" href="/groups"><UsersRound size={16} />{locale === "zh" ? "多人匹配" : locale === "zh-TW" ? "多人匹配" : "Group Match"}</Link>
+          <Link className="login-button" href="/account">{copy.login}</Link>
           <button
             className="mobile-menu-button"
             type="button"
@@ -270,9 +280,11 @@ export function PassportAtlas() {
           <button type="button" onClick={openRankings}>{copy.rankings}</button>
           <button type="button" onClick={() => { setCompareOpen(true); setMobileMenuOpen(false); }}>{copy.compare}</button>
           <button type="button" onClick={scrollToInsights}>{copy.insights}</button>
+          <button type="button" onClick={scrollToWheel}>{copy.surpriseMe}</button>
+          <Link href="/groups"><UsersRound size={16} />{locale === "zh" || locale === "zh-TW" ? "多人匹配" : "Group Match"}</Link>
           <button type="button" onClick={focusSearch}>{copy.search}</button>
           <Link href="/saved" onClick={() => setMobileMenuOpen(false)}>{copy.myList}</Link>
-          <button type="button" onClick={() => { setAuthOpen(true); setMobileMenuOpen(false); }}>{copy.login}</button>
+          <Link href="/account" onClick={() => setMobileMenuOpen(false)}>{copy.login}</Link>
         </nav>
       )}
 
@@ -373,6 +385,8 @@ export function PassportAtlas() {
         </div>
       </section>
 
+      <DestinationWheel id="destination-wheel" languageCode={locale} originIso={selected.iso3} />
+
       <footer className="site-footer">
         <span><Globe2 size={18} /> Passport Atlas</span>
         <p>{copy.disclaimer}</p>
@@ -386,7 +400,6 @@ export function PassportAtlas() {
         <ComparisonDialog initialRight={selected} locale={locale} onClose={() => setCompareOpen(false)} />
       )}
       {plannerOpen && <PlannerDialog locale={locale} onClose={() => setPlannerOpen(false)} />}
-      {authOpen && <AuthDialog locale={locale} onClose={() => setAuthOpen(false)} />}
     </main>
   );
 }
@@ -565,31 +578,6 @@ function PlannerDialog({ locale, onClose }: { locale: SiteLocale; onClose: () =>
           <small>{displayedRule.stay}</small>
         </div>
         <p className="legal-note">{locale === "zh" ? "示例结果仅用于产品演示。出行前请向目的地使领馆或官方移民部门核验。" : copy.demoNotice}</p>
-      </section>
-    </div>
-  );
-}
-
-function AuthDialog({ locale, onClose }: { locale: SiteLocale; onClose: () => void }) {
-  const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-  const copy = getAtlasCopy(locale);
-  return (
-    <div className="modal-backdrop" role="presentation" onMouseDown={onClose}>
-      <section className="auth-dialog" role="dialog" aria-modal="true" aria-labelledby="auth-title" onMouseDown={(event) => event.stopPropagation()}>
-        <div className="dialog-header">
-          <div><span className="section-kicker">{copy.signIn}</span><h2 id="auth-title">{copy.signIn}</h2></div>
-          <button className="icon-button" type="button" onClick={onClose} aria-label={copy.close}><X size={20} /></button>
-        </div>
-        {submitted ? (
-          <div className="auth-success"><ShieldCheck size={22} /><strong>{copy.accountReady}</strong><span>{copy.accountDescription}</span></div>
-        ) : (
-          <form className="auth-form" onSubmit={(event) => { event.preventDefault(); if (email.trim()) setSubmitted(true); }}>
-            <label htmlFor="account-email">{copy.email}</label>
-            <input id="account-email" type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="name@example.com" required />
-            <button type="submit">{copy.continue} <ArrowRight size={17} /></button>
-          </form>
-        )}
       </section>
     </div>
   );
